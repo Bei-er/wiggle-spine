@@ -4,7 +4,7 @@ modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
 
 * use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
-* drive up to 14 speakers at 48/96 kHz per channel
+* drive up to 14 speakers at 48/96 kHz per channel from one USB port
 * connect sensors and lights with DMX512, I²C, I²S, SPI, RS485, RS422, or GPIO ports, and sync them perfectly with sound and each other
 * connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
 * use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
