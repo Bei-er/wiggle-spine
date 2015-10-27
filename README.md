@@ -4,18 +4,17 @@ modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
 
 * use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
-* drive up to 14 speakers from a Raspberry Pi 2, at up to 96 kHz per channel
+* drive up to 14 speakers at 48/96 kHz per channel
 * connect sensors and lights with DMX512, I²C, I²S, SPI, RS485, RS422, or GPIO ports, and sync them perfectly with sound and each other
 * connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
-* use all the processing power in your PC, or run from any embedded Linux board with USB 2.0
-
+* use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
 
 scale it up or down
 -------------------
 
 * Each "spine" board has a 480 Mbit/s USB 2.0 uplink and 7 connectors for **modules**:
-  * *wiggle out* – 2x 25-watt class D speaker amplifiers, up to 96 kHz
-  * *wiggle volts* - 2x analog input and 2x analog output, DC-coupled with configurable gain, up to 96 kHz
+  * *wiggle out* – 2x 25-watt class D speaker amplifiers
+  * *wiggle volts* - 2x analog input and 2x analog output, DC-coupled with configurable gain
   * *wiggle dig* - 8x 5V differential GPIO (DMX512/RS422/RS485/SPI/switch/piezo) and 1x I²C (in addition to the 1x differential and 1x I²C on the spine)
   * *wiggle bright* - 1x addressable LED drive (SPI/WS2811). Consists of RJ45 cable driver and receiver boards, so the signal can travel. Typically drives ~1000 LEDs at 100fps.
 
