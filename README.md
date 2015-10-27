@@ -1,15 +1,15 @@
-![wiggleport](https://raw.githubusercontent.com/scanlime/wiggleport/master/doc/wiggleport-wordmark.png)
+<img alt="wiggleport" src="https://raw.githubusercontent.com/scanlime/wiggleport/master/doc/wiggleport-wordmark.png" width="50%">
 
-modular I/O for multi-channel sound, light, and motion
+Modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
 
-* use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
-* drive up to 14 speakers at 48/96 kHz per channel from one USB port
-* connect sensors and lights with DMX512, I²C, I²S, SPI, RS485, RS422, or GPIO ports, and sync them perfectly with sound and each other
-* connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
-* use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
+* Use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
+* Drive up to 14 speakers at 48/96 kHz per channel from one USB port
+* Connect sensors and lights, sync them perfectly with sound and each other
+* Connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
+* Use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
 
-scale it up or down
+Scale it up or down
 -------------------
 
 * Each "spine" board has a 480 Mbit/s USB 2.0 uplink and 7 connectors for **modules**:
@@ -19,10 +19,10 @@ scale it up or down
   * *wiggle bright* - 1x addressable LED drive (SPI/WS2811). Consists of RJ45 cable driver and receiver boards, so the signal can travel. Typically drives ~1000 LEDs at 100fps.
 
 * Multiple spines can be synchronized with cheap twisted-pair cable
-  * The USB links can go to the same or different computers, depending on how much processing power you need
+  * USB links can go to the same or different computers, depending on how much processing power you need
   * Everyone shares a common audio clock and timestamps
 
-internals
+Internals
 ---------
 
 Wiggleport is an open source hardware design optimized for simple and straightforward real-time performance. It's based around an FTDI FT2232H high-speed USB FIFO interface, combined with a precision clock synthesizer and a tiny FPGA for glue logic. It stays simple and inexpensive by doing much of the work in software, relying on the powerful CPUs available on even small embedded Linux boards now.
