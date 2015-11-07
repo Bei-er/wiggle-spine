@@ -1,4 +1,4 @@
-<img alt="wiggleport" src="https://raw.githubusercontent.com/scanlime/wiggleport/master/doc/wiggleport-wordmark.png" width="50%">
+<img alt="wiggleport" src="https://raw.githubusercontent.com/scanlime/wiggleport/master/doc/wiggleport-wordmark.png" width="66%">
 
 Modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
