@@ -8,6 +8,8 @@ Modular I/O for multi-channel sound, light, and motion
 * Connect sensors and lights, sync them perfectly with sound and each other
 * Connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
 * Use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
+* Accurate control of I/O timing from high-level Javascript code
+
 
 Scale it up or down
 -------------------
