@@ -1,4 +1,4 @@
-update=Monday, October 26, 2015 'PMt' 08:31:24 PM
+update=Saturday, November 07, 2015 'PMt' 06:31:00 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/Users/micah/src/kicad-library/library;/Users/micah/src/xess-kicad
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,5 +60,21 @@ LibName28=contrib
 LibName29=valves
 LibName30=ftdi
 LibName31=Lattice
-[general]
+LibName32=silabs
+LibName33=Cypress_cy8c5xlp
+LibName34=Cypress_PSoC
+LibName35=Lattice_iCE_FPGA
+LibName36=xess
+LibName37=xilinx6s
+LibName38=xilinx6v
+LibName39=xilinx7
+[schematic_editor]
 version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
