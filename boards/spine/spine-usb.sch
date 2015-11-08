@@ -54,151 +54,458 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L FT2232H U1
-U 1 1 5637B7F7
-P 5900 3600
-F 0 "U1" H 4850 5700 50  0000 L CNN
-F 1 "FT2232H" H 6650 5700 50  0000 L CNN
-F 2 "" H 5900 3600 50  0000 C CNN
-F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 5900 3600 50  0000 C CNN
-F 4 "3.70" H 5900 3600 60  0001 C CNN "RefPrice1k"
-F 5 "768-1024-1-ND" H 5900 3600 60  0001 C CNN "Vend1Id"
-F 6 "FTDI" H 5900 3600 60  0001 C CNN "MfrId"
-F 7 "FT2232HL-REEL" H 5900 3600 60  0001 C CNN "MfgId"
-F 8 "Digikey" H 5900 3600 60  0001 C CNN "Vend1"
-	1    5900 3600
-	1    0    0    -1  
-$EndComp
-$Comp
 L USB_B P1
 U 1 1 5637E4EA
-P 2250 2450
-F 0 "P1" H 2450 2250 50  0000 C CNN
-F 1 "USB_B" H 2200 2650 50  0000 C CNN
-F 2 "" V 2200 2350 60  0000 C CNN
-F 3 "http://productfinder.pulseeng.com/products/datasheets/E8144-B02022-L.PDF" V 2200 2350 60  0001 C CNN
-F 4 "Digikey" H 2250 2450 60  0001 C CNN "Vend1"
-F 5 "553-2272-ND" H 2250 2450 60  0001 C CNN "Vend1Id"
-F 6 "0.28" H 2250 2450 60  0001 C CNN "RefPrice1k"
-F 7 "Pulse" H 2250 2450 60  0001 C CNN "MfrId"
-F 8 "E8144-B02022-L" H 2250 2450 60  0001 C CNN "MfgId"
-	1    2250 2450
+P 2300 2900
+F 0 "P1" V 2000 3000 50  0000 C CNN
+F 1 "USB_B" H 2250 3100 50  0000 C CNN
+F 2 "" V 2250 2800 60  0000 C CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/E8144-B02022-L.PDF" V 2250 2800 60  0001 C CNN
+F 4 "Digikey" H 2300 2900 60  0001 C CNN "Vend1"
+F 5 "553-2272-ND" H 2300 2900 60  0001 C CNN "Vend1Id"
+F 6 "0.28" H 2300 2900 60  0001 C CNN "RefPrice1k"
+F 7 "Pulse" H 2300 2900 60  0001 C CNN "MfrId"
+F 8 "E8144-B02022-L" H 2300 2900 60  0001 C CNN "MfgId"
+	1    2300 2900
 	0    -1   1    0   
 $EndComp
-Text HLabel 8900 1500 2    60   BiDi ~ 0
+Text HLabel 9450 1600 2    60   BiDi ~ 0
 FIFO_DATA[0..7]
 Entry Bus Bus
-	7800 1700 7900 1800
+	8550 1800 8650 1900
 Entry Bus Bus
-	7800 1800 7900 1900
+	8550 1900 8650 2000
 Entry Bus Bus
-	7800 1900 7900 2000
+	8550 2000 8650 2100
 Entry Bus Bus
-	7800 2000 7900 2100
+	8550 2100 8650 2200
 Entry Bus Bus
-	7800 2100 7900 2200
+	8550 2200 8650 2300
 Entry Bus Bus
-	7800 2200 7900 2300
+	8550 2300 8650 2400
 Entry Bus Bus
-	7800 2300 7900 2400
+	8550 2400 8650 2500
 Entry Bus Bus
-	7800 2400 7900 2500
-Wire Wire Line
-	7800 2400 7100 2400
-Wire Wire Line
-	7100 2300 7800 2300
-Wire Wire Line
-	7800 2200 7100 2200
-Wire Wire Line
-	7100 2100 7800 2100
-Wire Wire Line
-	7100 2000 7800 2000
-Wire Wire Line
-	7100 1900 7800 1900
-Wire Wire Line
-	7100 1800 7800 1800
-Wire Wire Line
-	7100 1700 7800 1700
-Text Label 7200 1700 0    60   ~ 0
+	8550 2500 8650 2600
+Text Label 7950 1800 0    60   ~ 0
 FIFO_DATA0
-Text Label 7200 1800 0    60   ~ 0
+Text Label 7950 1900 0    60   ~ 0
 FIFO_DATA1
-Text Label 7200 1900 0    60   ~ 0
+Text Label 7950 2000 0    60   ~ 0
 FIFO_DATA2
-Text Label 7200 2000 0    60   ~ 0
+Text Label 7950 2100 0    60   ~ 0
 FIFO_DATA3
-Text Label 7200 2100 0    60   ~ 0
+Text Label 7950 2200 0    60   ~ 0
 FIFO_DATA4
-Text Label 7200 2200 0    60   ~ 0
+Text Label 7950 2300 0    60   ~ 0
 FIFO_DATA5
-Text Label 7200 2300 0    60   ~ 0
+Text Label 7950 2400 0    60   ~ 0
 FIFO_DATA6
-Text Label 7200 2400 0    60   ~ 0
+Text Label 7950 2500 0    60   ~ 0
 FIFO_DATA7
-Wire Bus Line
-	7900 2600 7900 1500
-Wire Bus Line
-	7900 1500 8900 1500
-Text Label 7900 1500 0    60   ~ 0
+Text Label 8650 1600 0    60   ~ 0
 FIFO_DATA[0..7]
 $Comp
-L FERRITE_BEAD L2
-U 1 1 5638109A
-P 2750 2700
-F 0 "L2" H 2900 2750 50  0000 C BNN
-F 1 "FERRITE_BEAD" H 2900 2625 50  0001 C BNN
-F 2 "" H 2750 2850 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2775 2700 60  0001 C CNN
-F 4 "0.00906" H 2750 2700 60  0001 C CNN "RefPrice1k"
-F 5 "Samsung" H 2750 2700 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 2750 2700 60  0001 C CNN "MfgId"
-F 7 "Digikey" H 2750 2700 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 2750 2700 60  0001 C CNN "Vend1Id"
-	1    2750 2700
+L FERRITE_BEAD FB1
+U 1 1 563F5CD5
+P 2650 2700
+F 0 "FB1" H 2800 2750 50  0000 C BNN
+F 1 "Ferrite bead" H 3050 2750 39  0001 C BNN
+F 2 "" H 2650 2850 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2675 2700 60  0001 C CNN
+F 4 "0.00906" H 2650 2700 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 2650 2700 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 2650 2700 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 2650 2700 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 2650 2700 60  0001 C CNN "Vend1Id"
+	1    2650 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE_BEAD FB2
+U 1 1 563EEF9E
+P 2650 3000
+F 0 "FB2" H 2800 2900 50  0000 C BNN
+F 1 "Ferrite bead" H 3050 2900 39  0001 C BNN
+F 2 "" H 2650 3150 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2675 3000 60  0001 C CNN
+F 4 "0.00906" H 2650 3000 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 2650 3000 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 2650 3000 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 2650 3000 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 2650 3000 60  0001 C CNN "Vend1Id"
+	1    2650 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 563F0A15
+P 2800 6600
+F 0 "#PWR?" H 2800 6350 50  0001 C CNN
+F 1 "GND" H 2800 6450 50  0000 C CNN
+F 2 "" H 2800 6600 60  0000 C CNN
+F 3 "" H 2800 6600 60  0000 C CNN
+	1    2800 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 563F0A16
+P 2650 4800
+F 0 "C?" V 2600 4850 50  0000 L CNN
+F 1 "0.1uF" V 2700 4850 50  0000 L TNN
+F 2 "" H 2688 4650 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_Y5V_6.3V-to-50V_5_revised.pdf" H 2650 4800 60  0001 C CNN
+F 4 "0.00783" V 2650 4800 60  0001 C CNN "RefPrice1k"
+F 5 "311-1361-1-ND" V 2650 4800 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 2650 4800 60  0001 C CNN "Vend1"
+F 7 "Yageo" V 2650 4800 60  0001 C CNN "MfrId"
+F 8 "CC0805ZRY5V9BB104" V 2650 4800 60  0001 C CNN "MfgId"
+	1    2650 4800
 	0    1    1    0   
 $EndComp
-Text Notes 1150 1100 0    60   ~ 0
-Note TI's recommendations on USB grounding and EMI:\nhttp://www.ti.com/sc/docs/apps/msp/intrface/usb/emitest.pdf
 $Comp
-L GND #PWR01
-U 1 1 563811A6
-P 2150 3250
-F 0 "#PWR01" H 2150 3000 50  0001 C CNN
-F 1 "GND" H 2150 3100 50  0000 C CNN
-F 2 "" H 2150 3250 60  0000 C CNN
-F 3 "" H 2150 3250 60  0000 C CNN
-	1    2150 3250
+L C C?
+U 1 1 563F0A1B
+P 4300 2350
+F 0 "C?" H 4325 2450 50  0000 L CNN
+F 1 "10uF " H 4325 2250 50  0000 L CNN
+F 2 "" H 4338 2200 30  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/MLCC%20ordering%20code.pdf" H 4300 2350 60  0001 C CNN
+F 4 "CC0805ZKY5V6BB106" H 4350 2150 39  0001 L BNN "MfgId"
+F 5 "Yageo" H 4300 2350 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 4300 2350 60  0001 C CNN "Vend1"
+F 7 "311-1355-1-ND" H 4300 2350 60  0001 C CNN "Vend1Id"
+F 8 "0.03080" H 4300 2350 60  0001 C CNN "RefPrice1k"
+	1    4300 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 563F0A22
+P 3250 3150
+F 0 "R?" V 3330 3150 50  0000 C CNN
+F 1 "4.7k" V 3250 3150 50  0000 C CNN
+F 2 "" V 3180 3150 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3250 3150 30  0001 C CNN
+F 4 "0.0032" V 3250 3150 60  0001 C CNN "RefPrice1k"
+F 5 "RMCF0805JT4K70CT-ND" V 3250 3150 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 3250 3150 60  0001 C CNN "Vend1"
+F 7 "Stackpole" V 3250 3150 60  0001 C CNN "MfrId"
+F 8 "RMCF0805JT4K70" V 3250 3150 60  0001 C CNN "MfgId"
+	1    3250 3150
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 563F0A23
+P 3250 3650
+F 0 "R?" V 3330 3650 50  0000 C CNN
+F 1 "10k" V 3250 3650 50  0000 C CNN
+F 2 "" V 3180 3650 30  0000 C CNN
+F 3 "http://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3250 3650 30  0001 C CNN
+F 4 "0.0032" V 3250 3650 60  0001 C CNN "RefPrice1k"
+F 5 "RMCF0805JT10K0CT-ND" V 3250 3650 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 3250 3650 60  0001 C CNN "Vend1"
+F 7 "Stackpole" V 3250 3650 60  0001 C CNN "MfrId"
+F 8 "RMCF0805JT10K0" V 3250 3650 60  0001 C CNN "MfgId"
+	1    3250 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C?
+U 1 1 563F0A24
+P 2650 5250
+F 0 "C?" V 2600 5300 50  0000 L CNN
+F 1 "0.1uF" V 2700 5300 50  0000 L TNN
+F 2 "" H 2688 5100 30  0000 C CNN
+F 3 "http://www.yageo.com/documents/recent/UPY-GPHC_Y5V_6.3V-to-50V_5_revised.pdf" H 2650 5250 60  0001 C CNN
+F 4 "0.00783" V 2650 5250 60  0001 C CNN "RefPrice1k"
+F 5 "311-1361-1-ND" V 2650 5250 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 2650 5250 60  0001 C CNN "Vend1"
+F 7 "Yageo" V 2650 5250 60  0001 C CNN "MfrId"
+F 8 "CC0805ZRY5V9BB104" V 2650 5250 60  0001 C CNN "MfgId"
+	1    2650 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L FT2232H U1
+U 1 1 5637B7F7
+P 6650 3700
+F 0 "U1" H 5600 5800 50  0000 L CNN
+F 1 "FT2232H" H 7400 5800 50  0000 L CNN
+F 2 "" H 6650 3700 50  0000 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 6650 3700 50  0001 C CNN
+F 4 "3.70" H 6650 3700 60  0001 C CNN "RefPrice1k"
+F 5 "768-1024-1-ND" H 6650 3700 60  0001 C CNN "Vend1Id"
+F 6 "FTDI" H 6650 3700 60  0001 C CNN "MfrId"
+F 7 "FT2232HL-REEL" H 6650 3700 60  0001 C CNN "MfgId"
+F 8 "Digikey" H 6650 3700 60  0001 C CNN "Vend1"
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+Text HLabel 3350 2700 2    60   Input ~ 0
+VBUS_OUT
+Text Label 3300 3400 0    60   ~ 0
+VBUS_SENSE
+Text Label 8150 5200 0    60   ~ 0
+VBUS_SENSE
+$Comp
+L R R?
+U 1 1 563F3115
+P 5200 3650
+F 0 "R?" V 5280 3650 50  0000 C CNN
+F 1 "12k 1%" V 5100 3650 50  0000 C CNN
+F 2 "" V 5130 3650 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 5200 3650 30  0001 C CNN
+F 4 "0.0032" V 5200 3650 60  0001 C CNN "RefPrice1k"
+F 5 "RMCF0805FT12K0TR-ND" V 5200 3650 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 5200 3650 60  0001 C CNN "Vend1"
+F 7 "Stackpole" V 5200 3650 60  0001 C CNN "MfrId"
+F 8 "RMCF0805FT12K0" V 5200 3650 60  0001 C CNN "MfgId"
+	1    5200 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 563F3593
+P 6250 6100
+F 0 "#PWR?" H 6250 5850 50  0001 C CNN
+F 1 "GND" H 6250 5950 50  0000 C CNN
+F 2 "" H 6250 6100 60  0000 C CNN
+F 3 "" H 6250 6100 60  0000 C CNN
+	1    6250 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 563F3C00
+P 2200 4000
+F 0 "#PWR?" H 2200 3750 50  0001 C CNN
+F 1 "GND" H 2200 3850 50  0000 C CNN
+F 2 "" H 2200 4000 60  0000 C CNN
+F 3 "" H 2200 4000 60  0000 C CNN
+	1    2200 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 563F4426
+P 4950 2350
+F 0 "R?" V 5030 2350 50  0000 C CNN
+F 1 "4.7k" V 4950 2350 50  0000 C CNN
+F 2 "" V 4880 2350 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4950 2350 30  0001 C CNN
+F 4 "0.0032" V 4950 2350 60  0001 C CNN "RefPrice1k"
+F 5 "RMCF0805JT4K70CT-ND" V 4950 2350 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 4950 2350 60  0001 C CNN "Vend1"
+F 7 "Stackpole" V 4950 2350 60  0001 C CNN "MfrId"
+F 8 "RMCF0805JT4K70" V 4950 2350 60  0001 C CNN "MfgId"
+	1    4950 2350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7850 2500 8550 2500
+Wire Wire Line
+	7850 2400 8550 2400
+Wire Wire Line
+	8550 2300 7850 2300
+Wire Wire Line
+	7850 2200 8550 2200
+Wire Wire Line
+	7850 2100 8550 2100
+Wire Wire Line
+	7850 2000 8550 2000
+Wire Wire Line
+	7850 1900 8550 1900
+Wire Wire Line
+	7850 1800 8550 1800
+Wire Bus Line
+	8650 1600 8650 1900
+Wire Bus Line
+	8650 1900 8650 2000
+Wire Bus Line
+	8650 2000 8650 2100
+Wire Bus Line
+	8650 2100 8650 2200
+Wire Bus Line
+	8650 2200 8650 2300
+Wire Bus Line
+	8650 2300 8650 2400
+Wire Bus Line
+	8650 2400 8650 2500
+Wire Bus Line
+	8650 2500 8650 2600
+Wire Bus Line
+	8650 2600 8650 2700
+Wire Bus Line
+	8650 1600 9450 1600
+Wire Wire Line
+	2600 2700 2650 2700
+Wire Wire Line
+	2600 3000 2650 3000
+Wire Wire Line
+	2950 3000 3000 3000
+Wire Wire Line
+	2950 2700 3250 2700
+Wire Wire Line
+	3250 2700 3350 2700
+Wire Wire Line
+	2800 6600 2800 6450
+Wire Wire Line
+	3000 3000 3000 3900
+Wire Wire Line
+	3250 3900 3250 3800
+Wire Wire Line
+	3250 3300 3250 3400
+Wire Wire Line
+	3250 3400 3250 3500
+Wire Wire Line
+	3250 2700 3250 3000
+Connection ~ 3250 2700
+Wire Wire Line
+	3250 3400 3900 3400
+Connection ~ 3250 3400
+Wire Wire Line
+	7850 5200 8800 5200
+Wire Wire Line
+	5200 3900 5200 3800
+Wire Wire Line
+	5200 3500 5200 3100
+Wire Wire Line
+	5200 3100 5450 3100
+Wire Wire Line
+	6250 5900 6250 6000
+Wire Wire Line
+	6250 6000 6250 6100
+Wire Wire Line
+	6250 6000 6350 6000
+Wire Wire Line
+	6350 6000 6450 6000
+Wire Wire Line
+	6450 6000 6550 6000
+Wire Wire Line
+	6550 6000 6650 6000
+Wire Wire Line
+	6650 6000 6750 6000
+Wire Wire Line
+	6750 6000 6850 6000
+Wire Wire Line
+	6850 6000 6950 6000
+Wire Wire Line
+	6350 6000 6350 5900
+Connection ~ 6250 6000
+Wire Wire Line
+	6450 6000 6450 5900
+Connection ~ 6350 6000
+Wire Wire Line
+	6550 6000 6550 5900
+Connection ~ 6450 6000
+Wire Wire Line
+	6650 6000 6650 5900
+Connection ~ 6550 6000
+Wire Wire Line
+	6750 6000 6750 5900
+Connection ~ 6650 6000
+Wire Wire Line
+	6850 6000 6850 5900
+Connection ~ 6750 6000
+Wire Wire Line
+	6950 6000 6950 5900
+Connection ~ 6850 6000
+Wire Wire Line
+	2200 3200 2200 3900
+Wire Wire Line
+	2200 3900 2200 4000
+Connection ~ 2200 3900
+Connection ~ 3000 3900
+Connection ~ 3250 3900
+Wire Wire Line
+	2600 2800 5450 2800
+Wire Wire Line
+	2600 2900 5450 2900
+Wire Wire Line
+	4950 2200 4950 1800
+Wire Wire Line
+	4300 1800 4950 1800
+Wire Wire Line
+	4950 1800 5450 1800
+Wire Wire Line
+	4600 2000 5200 2000
+Wire Wire Line
+	5200 2000 5450 2000
+Wire Wire Line
+	5200 2000 5200 1400
+Wire Wire Line
+	5200 1400 6450 1400
+Wire Wire Line
+	6450 1400 6550 1400
+Wire Wire Line
+	6550 1400 6650 1400
+Wire Wire Line
+	6450 1400 6450 1500
+Wire Wire Line
+	6550 1400 6550 1500
+Connection ~ 6450 1400
+Wire Wire Line
+	6650 1400 6650 1500
+Connection ~ 6550 1400
+Connection ~ 4300 3900
+Wire Wire Line
+	4300 950  4300 1800
+Wire Wire Line
+	4300 1800 4300 2200
+Connection ~ 4950 1800
+$Comp
+L C C?
+U 1 1 563F4F1F
+P 4600 2350
+F 0 "C?" H 4625 2450 50  0000 L CNN
+F 1 "10uF " H 4625 2250 50  0000 L CNN
+F 2 "" H 4638 2200 30  0000 C CNN
+F 3 "http://media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/MLCC%20ordering%20code.pdf" H 4600 2350 60  0001 C CNN
+F 4 "CC0805ZKY5V6BB106" H 4650 2150 39  0001 L BNN "MfgId"
+F 5 "Yageo" H 4600 2350 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 4600 2350 60  0001 C CNN "Vend1"
+F 7 "311-1355-1-ND" H 4600 2350 60  0001 C CNN "Vend1Id"
+F 8 "0.03080" H 4600 2350 60  0001 C CNN "RefPrice1k"
+	1    4600 2350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 2750 2150 3250
+	4300 3900 4300 2500
 Wire Wire Line
-	2550 2250 2750 2250
+	4950 2500 4950 3300
 Wire Wire Line
-	2750 2250 2750 2100
+	4950 3300 5450 3300
 Wire Wire Line
-	2550 2550 2750 2550
+	4600 3900 4600 2500
+Connection ~ 4600 3900
 Wire Wire Line
-	2750 2550 2750 2700
+	4600 2200 4600 2000
+Connection ~ 5200 2000
 Wire Wire Line
-	2750 3200 2750 3000
+	2200 3900 3000 3900
 Wire Wire Line
-	2150 3200 2750 3200
-Connection ~ 2150 3200
+	3000 3900 3250 3900
+Wire Wire Line
+	3250 3900 4300 3900
+Wire Wire Line
+	4300 3900 4600 3900
+Wire Wire Line
+	4600 3900 5200 3900
 $Comp
-L FERRITE_BEAD L1
-U 1 1 563F5CD5
-P 2750 1800
-F 0 "L1" H 2900 1850 50  0000 C BNN
-F 1 "FERRITE_BEAD" H 2900 1725 50  0001 C BNN
-F 2 "" H 2750 1950 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2775 1800 60  0001 C CNN
-F 4 "0.00906" H 2750 1800 60  0001 C CNN "RefPrice1k"
-F 5 "Samsung" H 2750 1800 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 2750 1800 60  0001 C CNN "MfgId"
-F 7 "Digikey" H 2750 1800 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 2750 1800 60  0001 C CNN "Vend1Id"
-	1    2750 1800
-	0    1    1    0   
+L +3V3 #PWR?
+U 1 1 563F5B33
+P 4300 950
+F 0 "#PWR?" H 4300 800 50  0001 C CNN
+F 1 "+3V3" H 4300 1090 50  0000 C CNN
+F 2 "" H 4300 950 60  0000 C CNN
+F 3 "" H 4300 950 60  0000 C CNN
+	1    4300 950 
+	1    0    0    -1  
 $EndComp
+Connection ~ 4300 1800
+Text Notes 3350 4100 0    60   ~ 0
+Todo: pick an ESD solution
 $EndSCHEMATC
