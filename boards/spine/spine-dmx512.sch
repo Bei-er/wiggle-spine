@@ -216,13 +216,13 @@ Text Label 1950 1650 0    60   ~ 0
 DMX_PWR2
 Text Label 1950 1950 0    60   ~ 0
 DMX_TX_OOK
-Text Label 8900 4500 0    60   ~ 0
+Text Label 8950 4500 0    60   ~ 0
 DMX_PWR1
-Text Label 8900 4900 0    60   ~ 0
+Text Label 8950 4900 0    60   ~ 0
 DMX_PWR2
-Text Label 8900 5500 0    60   ~ 0
+Text Label 8950 5500 0    60   ~ 0
 DMX_TX_OOK
-Text Label 8900 5900 0    60   ~ 0
+Text Label 8950 5900 0    60   ~ 0
 DMX_GND
 Text Notes 900  1350 0    60   ~ 0
 Isolated AC power
@@ -535,7 +535,7 @@ Wire Wire Line
 Connection ~ 2950 2950
 Connection ~ 2950 1350
 Wire Wire Line
-	8700 4900 9550 4900
+	8700 4900 9600 4900
 Wire Wire Line
 	2600 1950 1950 1950
 Wire Wire Line
@@ -543,18 +543,18 @@ Wire Wire Line
 Wire Wire Line
 	2600 1050 1950 1050
 Wire Wire Line
-	8700 4500 9550 4500
+	8700 4500 9600 4500
 Wire Wire Line
-	8700 5500 9550 5500
+	8700 5500 9600 5500
 Wire Wire Line
-	8700 4700 8800 4700
+	8700 4700 8850 4700
 Wire Wire Line
-	8700 5900 8800 5900
+	8700 5900 8850 5900
 Wire Wire Line
-	8800 5900 9550 5900
-Connection ~ 8800 5900
+	8850 5900 9600 5900
+Connection ~ 8850 5900
 Wire Wire Line
-	8800 4700 8800 5900
+	8850 4700 8850 5900
 Wire Wire Line
 	5500 5900 6950 5900
 Wire Wire Line
@@ -562,11 +562,9 @@ Wire Wire Line
 Wire Wire Line
 	2600 6350 3850 6350
 Wire Wire Line
-	4200 6350 4800 6350
+	3850 6350 4800 6350
 Wire Wire Line
-	4800 6350 5400 6350
-Wire Wire Line
-	5400 6350 5950 6350
+	4800 6350 5950 6350
 Wire Wire Line
 	5950 6350 6400 6350
 Wire Wire Line
@@ -596,13 +594,9 @@ Wire Wire Line
 Wire Wire Line
 	3150 4050 3850 4050
 Wire Wire Line
-	3850 4050 4200 4050
+	3850 4050 4800 4050
 Wire Wire Line
-	4200 4050 4800 4050
-Wire Wire Line
-	4800 4050 5400 4050
-Wire Wire Line
-	5400 4050 6800 4050
+	4800 4050 6800 4050
 Connection ~ 6800 4700
 Wire Wire Line
 	7250 5900 7400 5900
@@ -641,7 +635,7 @@ Wire Wire Line
 	3850 4500 3850 4050
 Connection ~ 3850 4050
 Wire Wire Line
-	3850 4900 3850 6350
+	3850 6350 3850 4900
 Connection ~ 2850 4050
 Connection ~ 3850 6350
 Wire Wire Line
@@ -662,6 +656,8 @@ Text Notes 5750 3950 0    60   ~ 0
 DC-DC FETs and input filter
 Text Notes 6900 6200 0    60   ~ 0
 DC blocking
-Wire Wire Line
-	3850 6350 4200 6350
+NoConn ~ 4050 4950
+NoConn ~ 4050 5350
+NoConn ~ 5000 5700
+NoConn ~ 5000 6100
 $EndSCHEMATC
