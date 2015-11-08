@@ -60,7 +60,12 @@ P 5900 3600
 F 0 "U1" H 4850 5700 50  0000 L CNN
 F 1 "FT2232H" H 6650 5700 50  0000 L CNN
 F 2 "" H 5900 3600 50  0000 C CNN
-F 3 "" H 5900 3600 50  0000 C CNN
+F 3 "http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf" H 5900 3600 50  0000 C CNN
+F 4 "3.70" H 5900 3600 60  0001 C CNN "RefPrice1k"
+F 5 "768-1024-1-ND" H 5900 3600 60  0001 C CNN "Vend1Id"
+F 6 "FTDI" H 5900 3600 60  0001 C CNN "MfrId"
+F 7 "FT2232HL-REEL" H 5900 3600 60  0001 C CNN "MfgId"
+F 8 "Digikey" H 5900 3600 60  0001 C CNN "Vend1"
 	1    5900 3600
 	1    0    0    -1  
 $EndComp
@@ -71,7 +76,12 @@ P 2250 2450
 F 0 "P1" H 2450 2250 50  0000 C CNN
 F 1 "USB_B" H 2200 2650 50  0000 C CNN
 F 2 "" V 2200 2350 60  0000 C CNN
-F 3 "" V 2200 2350 60  0000 C CNN
+F 3 "http://productfinder.pulseeng.com/products/datasheets/E8144-B02022-L.PDF" V 2200 2350 60  0001 C CNN
+F 4 "Digikey" H 2250 2450 60  0001 C CNN "Vend1"
+F 5 "553-2272-ND" H 2250 2450 60  0001 C CNN "Vend1Id"
+F 6 "0.28" H 2250 2450 60  0001 C CNN "RefPrice1k"
+F 7 "Pulse" H 2250 2450 60  0001 C CNN "MfrId"
+F 8 "E8144-B02022-L" H 2250 2450 60  0001 C CNN "MfgId"
 	1    2250 2450
 	0    -1   1    0   
 $EndComp
@@ -132,34 +142,28 @@ Wire Bus Line
 Text Label 7900 1500 0    60   ~ 0
 FIFO_DATA[0..7]
 $Comp
-L FERRITE_BEAD L1
-U 1 1 56380FD6
-P 2750 1800
-F 0 "L1" H 2900 1850 50  0000 C BNN
-F 1 "FERRITE_BEAD" H 2900 1725 50  0000 C BNN
-F 2 "" H 2750 1950 50  0001 C CNN
-F 3 "" H 2775 1800 60  0000 C CNN
-	1    2750 1800
-	0    1    1    0   
-$EndComp
-$Comp
 L FERRITE_BEAD L2
 U 1 1 5638109A
 P 2750 2700
 F 0 "L2" H 2900 2750 50  0000 C BNN
-F 1 "FERRITE_BEAD" H 2900 2625 50  0000 C BNN
+F 1 "FERRITE_BEAD" H 2900 2625 50  0001 C BNN
 F 2 "" H 2750 2850 50  0001 C CNN
-F 3 "" H 2775 2700 60  0000 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2775 2700 60  0001 C CNN
+F 4 "0.00906" H 2750 2700 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 2750 2700 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 2750 2700 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 2750 2700 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 2750 2700 60  0001 C CNN "Vend1Id"
 	1    2750 2700
 	0    1    1    0   
 $EndComp
 Text Notes 1150 1100 0    60   ~ 0
 Note TI's recommendations on USB grounding and EMI:\nhttp://www.ti.com/sc/docs/apps/msp/intrface/usb/emitest.pdf
 $Comp
-L GND #PWR1
+L GND #PWR01
 U 1 1 563811A6
 P 2150 3250
-F 0 "#PWR1" H 2150 3000 50  0001 C CNN
+F 0 "#PWR01" H 2150 3000 50  0001 C CNN
 F 1 "GND" H 2150 3100 50  0000 C CNN
 F 2 "" H 2150 3250 60  0000 C CNN
 F 3 "" H 2150 3250 60  0000 C CNN
@@ -181,4 +185,20 @@ Wire Wire Line
 Wire Wire Line
 	2150 3200 2750 3200
 Connection ~ 2150 3200
+$Comp
+L FERRITE_BEAD L1
+U 1 1 563F5CD5
+P 2750 1800
+F 0 "L1" H 2900 1850 50  0000 C BNN
+F 1 "FERRITE_BEAD" H 2900 1725 50  0001 C BNN
+F 2 "" H 2750 1950 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 2775 1800 60  0001 C CNN
+F 4 "0.00906" H 2750 1800 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 2750 1800 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 2750 1800 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 2750 1800 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 2750 1800 60  0001 C CNN "Vend1Id"
+	1    2750 1800
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -60,7 +60,12 @@ P 1600 1650
 F 0 "U2" H 1800 1900 60  0000 L CNN
 F 1 "iCE40-HX1K-TQ144" H 1800 1800 60  0000 L CNN
 F 2 "" H 1600 1650 60  0000 C CNN
-F 3 "" H 1600 1650 60  0000 C CNN
+F 3 "http://www.latticesemi.com/~/media/LatticeSemi/Documents/DataSheets/iCE/iCE40LPHXFamilyDataSheet.pdf" H 1600 1650 60  0001 C CNN
+F 4 "4.5703" H 1600 1650 60  0001 C CNN "RefPrice1k"
+F 5 "Lattice" H 1600 1650 60  0001 C CNN "MfrId"
+F 6 "ICE40HX1K-TQ144" H 1600 1650 60  0001 C CNN "MfgId"
+F 7 "220-1565-ND" H 1600 1650 60  0001 C CNN "Vend1Id"
+F 8 "Digikey" H 1600 1650 60  0001 C CNN "Vend1"
 	1    1600 1650
 	1    0    0    -1  
 $EndComp
