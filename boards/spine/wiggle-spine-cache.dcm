@@ -24,6 +24,11 @@ D RS485/RS422 Transceiver
 K RS485 RS422 transceiver
 $ENDCMP
 #
+$CMP TVS_QUAD_STEERING
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
 $CMP XLR_3
 D 3-pin XLR
 K CONN 3-pin XLR
