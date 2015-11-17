@@ -24,6 +24,10 @@ D RS485/RS422 Transceiver
 K RS485 RS422 transceiver
 $ENDCMP
 #
+$CMP SiP32408
+D 1.1 V to 5.5 V, Slew Rate Controlled Load Switch
+$ENDCMP
+#
 $CMP TVS_QUAD_STEERING
 D Double diode Schottky (Serie)
 K DEV DIODE
