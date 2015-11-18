@@ -1,0 +1,610 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:ftdi
+LIBS:Lattice
+LIBS:silabs
+LIBS:Cypress_cy8c5xlp
+LIBS:Cypress_PSoC
+LIBS:Lattice_iCE_FPGA
+LIBS:xess
+LIBS:xilinx6s
+LIBS:xilinx6v
+LIBS:xilinx7
+LIBS:wiggle-spine-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 10 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NMOS_GSD Q?
+U 1 1 564D4E76
+P 4950 2600
+F 0 "Q?" H 5250 2650 50  0000 R CNN
+F 1 "IRFML8244" H 5550 2550 50  0001 R CNN
+F 2 "" H 5150 2700 29  0000 C CNN
+F 3 "http://www.irf.com/product-info/datasheets/data/irfml8244pbf.pdf" H 4950 2600 60  0001 C CNN
+F 4 "Infineon" H 4950 2600 60  0001 C CNN "MfrId"
+F 5 "IRFML8244TRPBF" H 4950 2600 60  0001 C CNN "MfgId"
+F 6 "0.1046" H 4950 2600 60  0001 C CNN "RefPrice1k"
+F 7 "Digikey" H 4950 2600 60  0001 C CNN "Vend1"
+F 8 "IRFML8244TRPBFCT-ND" H 4950 2600 60  0001 C CNN "Vend1Id"
+	1    4950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SiP32408 U?
+U 1 1 564D4E83
+P 6050 1650
+F 0 "U?" H 5800 1950 60  0000 L CNN
+F 1 "SiP32408" H 5800 1850 60  0000 L CNN
+F 2 "" H 6100 1850 60  0000 C CNN
+F 3 "" H 6100 1850 60  0000 C CNN
+	1    6050 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 564D4E84
+P 6550 2350
+F 0 "#PWR?" H 6550 2100 50  0001 C CNN
+F 1 "GND" H 6550 2200 50  0000 C CNN
+F 2 "" H 6550 2350 60  0000 C CNN
+F 3 "" H 6550 2350 60  0000 C CNN
+	1    6550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4E85
+P 5500 2200
+F 0 "C?" H 5550 2300 50  0000 L CNN
+F 1 "1uF " H 5550 2100 50  0000 L CNN
+F 2 "0805" H 5538 2050 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5500 2200 60  0001 C CNN
+F 4 "GRM219R61H105KA73D" H 5550 2000 39  0001 L BNN "MfgId"
+F 5 "Murata" H 5500 2200 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 5500 2200 60  0001 C CNN "Vend1"
+F 7 "490-10743-2-ND" H 5500 2200 60  0001 C CNN "Vend1Id"
+F 8 "0.03980" H 5500 2200 60  0001 C CNN "RefPrice1k"
+	1    5500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 564D4E86
+P 5500 2350
+F 0 "#PWR?" H 5500 2100 50  0001 C CNN
+F 1 "GND" H 5500 2200 50  0000 C CNN
+F 2 "" H 5500 2350 60  0000 C CNN
+F 3 "" H 5500 2350 60  0000 C CNN
+	1    5500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 564D4E87
+P 4950 1900
+F 0 "R?" V 5030 1900 50  0000 C CNN
+F 1 "100k" V 4950 1900 50  0000 C CNN
+F 2 "" V 4880 1900 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4950 1900 30  0001 C CNN
+F 4 "Digikey" V 4950 1900 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 4950 1900 60  0001 C CNN "MfrId"
+F 6 "RMCF0805JT100K" V 4950 1900 60  0001 C CNN "MfgId"
+F 7 "RMCF0805JT100KCT-ND" V 4950 1900 60  0001 C CNN "Vend1Id"
+F 8 "0.00320" V 4950 1900 60  0001 C CNN "RefPrice1k"
+	1    4950 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4E88
+P 6800 1900
+F 0 "C?" H 6650 1800 50  0000 L CNN
+F 1 "0.1uF" H 6550 2000 50  0000 L CNN
+F 2 "0805" H 6838 1750 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6800 1900 60  0001 C CNN
+F 4 "0.01880" V 6800 1900 60  0001 C CNN "RefPrice1k"
+F 5 "490-9672-2-ND" V 6800 1900 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 6800 1900 60  0001 C CNN "Vend1"
+F 7 "Murata" V 6800 1900 60  0001 C CNN "MfrId"
+F 8 "GRM21BR71H104MA01L" V 6800 1900 60  0001 C CNN "MfgId"
+	1    6800 1900
+	-1   0    0    1   
+$EndComp
+Text Notes 3850 1200 0    60   ~ 0
+If external power isn't available, USB power supplies\nthe +5V rail. Reverse currents are blocked by the switch.
+$Comp
+L SiP32408 U?
+U 1 1 564D4E89
+P 9000 2800
+F 0 "U?" H 8750 3100 60  0000 L CNN
+F 1 "SiP32408" H 8750 3000 60  0000 L CNN
+F 2 "" H 9050 3000 60  0000 C CNN
+F 3 "" H 9050 3000 60  0000 C CNN
+	1    9000 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 564D4E8A
+P 8200 3300
+F 0 "R?" V 8280 3300 50  0000 C CNN
+F 1 "100k" V 8200 3300 50  0000 C CNN
+F 2 "" V 8130 3300 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 8200 3300 30  0001 C CNN
+F 4 "Digikey" V 8200 3300 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 8200 3300 60  0001 C CNN "MfrId"
+F 6 "RMCF0805JT100K" V 8200 3300 60  0001 C CNN "MfgId"
+F 7 "RMCF0805JT100KCT-ND" V 8200 3300 60  0001 C CNN "Vend1Id"
+F 8 "0.00320" V 8200 3300 60  0001 C CNN "RefPrice1k"
+	1    8200 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L USB_A P?
+U 1 1 564D4E8C
+P 11100 2950
+F 0 "P?" H 11300 2750 50  0000 C CNN
+F 1 "USB_A" H 11050 3150 50  0000 C CNN
+F 2 "" V 11050 2850 60  0000 C CNN
+F 3 "" V 11050 2850 60  0000 C CNN
+	1    11100 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L FERRITE_BEAD FB?
+U 1 1 564D4E8D
+P 10450 2750
+F 0 "FB?" H 10600 2800 50  0000 C BNN
+F 1 "Ferrite bead" H 10850 2800 39  0001 C BNN
+F 2 "" H 10450 2900 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 10475 2750 60  0001 C CNN
+F 4 "0.00906" H 10450 2750 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 10450 2750 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 10450 2750 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 10450 2750 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 10450 2750 60  0001 C CNN "Vend1Id"
+	1    10450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4E8F
+P 9750 3050
+F 0 "C?" V 9800 2850 50  0000 L CNN
+F 1 "0.1uF" V 9800 3150 50  0000 L CNN
+F 2 "0805" H 9788 2900 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 9750 3050 60  0001 C CNN
+F 4 "0.01880" V 9750 3050 60  0001 C CNN "RefPrice1k"
+F 5 "490-9672-2-ND" V 9750 3050 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 9750 3050 60  0001 C CNN "Vend1"
+F 7 "Murata" V 9750 3050 60  0001 C CNN "MfrId"
+F 8 "GRM21BR71H104MA01L" V 9750 3050 60  0001 C CNN "MfgId"
+	1    9750 3050
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 564D4E90
+P 10000 3050
+F 0 "R?" V 10080 3050 50  0000 C CNN
+F 1 "100k" V 10000 3050 50  0000 C CNN
+F 2 "" V 9930 3050 30  0000 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 10000 3050 30  0001 C CNN
+F 4 "Digikey" V 10000 3050 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 10000 3050 60  0001 C CNN "MfrId"
+F 6 "RMCF0805JT100K" V 10000 3050 60  0001 C CNN "MfgId"
+F 7 "RMCF0805JT100KCT-ND" V 10000 3050 60  0001 C CNN "Vend1Id"
+F 8 "0.00320" V 10000 3050 60  0001 C CNN "RefPrice1k"
+	1    10000 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L FERRITE_BEAD FB?
+U 1 1 564D4E91
+P 10450 3050
+F 0 "FB?" H 10600 3100 50  0000 C BNN
+F 1 "Ferrite bead" H 10850 3100 39  0001 C BNN
+F 2 "" H 10450 3200 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 10475 3050 60  0001 C CNN
+F 4 "0.00906" H 10450 3050 60  0001 C CNN "RefPrice1k"
+F 5 "Samsung" H 10450 3050 60  0001 C CNN "MfrId"
+F 6 "CIB21P260NE" H 10450 3050 60  0001 C CNN "MfgId"
+F 7 "Digikey" H 10450 3050 60  0001 C CNN "Vend1"
+F 8 "1276-6342-2-ND" H 10450 3050 60  0001 C CNN "Vend1Id"
+	1    10450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4E92
+P 8450 3350
+F 0 "C?" H 8500 3450 50  0000 L CNN
+F 1 "1uF " H 8500 3250 50  0000 L CNN
+F 2 "0805" H 8488 3200 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 8450 3350 60  0001 C CNN
+F 4 "GRM219R61H105KA73D" H 8500 3150 39  0001 L BNN "MfgId"
+F 5 "Murata" H 8450 3350 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 8450 3350 60  0001 C CNN "Vend1"
+F 7 "490-10743-2-ND" H 8450 3350 60  0001 C CNN "Vend1Id"
+F 8 "0.03980" H 8450 3350 60  0001 C CNN "RefPrice1k"
+	1    8450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 1900 6550 1900
+Wire Wire Line
+	6550 1800 6550 1900
+Wire Wire Line
+	6550 1900 6550 2250
+Wire Wire Line
+	6550 2250 6550 2350
+Wire Wire Line
+	6500 1800 6550 1800
+Connection ~ 6550 1900
+Wire Wire Line
+	4650 1600 4750 1600
+Wire Wire Line
+	4750 1600 5500 1600
+Wire Wire Line
+	5500 1600 5600 1600
+Wire Wire Line
+	5500 1600 5500 2050
+Connection ~ 5500 1600
+Wire Wire Line
+	6550 2250 6800 2250
+Wire Wire Line
+	6800 2250 6800 2050
+Connection ~ 6550 2250
+Wire Wire Line
+	6500 1600 6800 1600
+Wire Wire Line
+	6800 1600 7250 1600
+Wire Wire Line
+	4800 1900 4750 1900
+Wire Wire Line
+	4750 1900 4750 1600
+Connection ~ 4750 1600
+Wire Wire Line
+	5100 1900 5600 1900
+Connection ~ 6800 1600
+Wire Wire Line
+	8100 3050 8200 3050
+Wire Wire Line
+	8200 3050 8550 3050
+Wire Wire Line
+	8200 3150 8200 3050
+Connection ~ 8200 3050
+Wire Wire Line
+	10800 2850 10750 2850
+Wire Wire Line
+	10750 2850 10750 2950
+Wire Wire Line
+	10750 2950 10800 2950
+Wire Wire Line
+	10750 2750 10800 2750
+Wire Wire Line
+	10750 3050 10800 3050
+Wire Wire Line
+	9450 3050 9500 3050
+Wire Wire Line
+	9500 2950 9500 3050
+Wire Wire Line
+	9500 3050 9500 3400
+Wire Wire Line
+	9450 2950 9500 2950
+Connection ~ 9500 3050
+Wire Wire Line
+	9750 3400 9750 3200
+Wire Wire Line
+	9450 2750 9750 2750
+Wire Wire Line
+	9750 2750 10000 2750
+Wire Wire Line
+	10000 2750 10150 2750
+Wire Wire Line
+	9750 2750 9750 2900
+Connection ~ 9750 2750
+Wire Wire Line
+	10000 2750 10000 2900
+Connection ~ 10000 2750
+Wire Wire Line
+	10450 3050 10250 3050
+Wire Wire Line
+	11200 3400 11200 3250
+Wire Wire Line
+	10000 3400 10000 3200
+Wire Wire Line
+	8450 3200 8450 2750
+Wire Wire Line
+	8100 2750 8450 2750
+Wire Wire Line
+	8450 2750 8550 2750
+$Comp
+L C C?
+U 1 1 564D4E9B
+P 4750 3800
+F 0 "C?" V 4700 3900 50  0000 L CNN
+F 1 "10uF " V 4700 3500 50  0000 L CNN
+F 2 "1206" H 4788 3650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4750 3800 60  0001 C CNN
+F 4 "GRM31CR61H106MA12L" H 4800 3600 39  0001 L BNN "MfgId"
+F 5 "Murata" H 4750 3800 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 4750 3800 60  0001 C CNN "Vend1"
+F 7 "490-10756-2-ND" H 4750 3800 60  0001 C CNN "Vend1Id"
+F 8 "0.07429" H 4750 3800 60  0001 C CNN "RefPrice1k"
+	1    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4E9C
+P 4950 3800
+F 0 "C?" V 4900 3900 50  0000 L CNN
+F 1 "10uF " V 4900 3500 50  0000 L CNN
+F 2 "1206" H 4988 3650 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4950 3800 60  0001 C CNN
+F 4 "GRM31CR61H106MA12L" H 5000 3600 39  0001 L BNN "MfgId"
+F 5 "Murata" H 4950 3800 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 4950 3800 60  0001 C CNN "Vend1"
+F 7 "490-10756-2-ND" H 4950 3800 60  0001 C CNN "Vend1Id"
+F 8 "0.07429" H 4950 3800 60  0001 C CNN "RefPrice1k"
+	1    4950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 564D4E9D
+P 4500 4300
+F 0 "R?" H 4550 4350 50  0000 L CNN
+F 1 "5.1k 1%" H 4550 4250 50  0000 L CNN
+F 2 "0805" V 4430 4300 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4500 4300 30  0001 C CNN
+F 4 "Digikey" V 4500 4300 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 4500 4300 60  0001 C CNN "MfrId"
+F 6 "RMCF0805FT5K10" V 4500 4300 60  0001 C CNN "MfgId"
+F 7 "RMCF0805FT5K10CT-ND" V 4500 4300 60  0001 C CNN "Vend1Id"
+F 8 "0.00448" V 4500 4300 60  0001 C CNN "RefPrice1k"
+	1    4500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R?
+U 1 1 564D4E9E
+P 4500 3800
+F 0 "R?" H 4550 3850 50  0000 L CNN
+F 1 "27k 1%" H 4550 3750 50  0000 L CNN
+F 2 "0805" V 4430 3800 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4500 3800 30  0001 C CNN
+F 4 "Digikey" V 4500 3800 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 4500 3800 60  0001 C CNN "MfrId"
+F 6 "RMCF0805FT27K0" V 4500 3800 60  0001 C CNN "MfgId"
+F 7 "RMCF0805FT27K0CT-ND" V 4500 3800 60  0001 C CNN "Vend1Id"
+F 8 "0.00448" V 4500 3800 60  0001 C CNN "RefPrice1k"
+	1    4500 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 564D4EA0
+P 4500 4750
+F 0 "#PWR?" H 4500 4500 50  0001 C CNN
+F 1 "GND" H 4500 4600 50  0000 C CNN
+F 2 "" H 4500 4750 60  0000 C CNN
+F 3 "" H 4500 4750 60  0000 C CNN
+	1    4500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4450 4500 4600
+Wire Wire Line
+	4500 4600 4500 4750
+Wire Wire Line
+	4350 3500 4500 3500
+Wire Wire Line
+	4500 3500 4750 3500
+Wire Wire Line
+	4750 3500 4950 3500
+Wire Wire Line
+	4950 3500 5150 3500
+Wire Wire Line
+	5150 3500 5500 3500
+Wire Wire Line
+	5500 3500 5600 3500
+Wire Wire Line
+	4500 3500 4500 3650
+Wire Wire Line
+	4750 3500 4750 3650
+Connection ~ 4500 3500
+Wire Wire Line
+	4950 3500 4950 3650
+Connection ~ 4750 3500
+Wire Wire Line
+	4500 4600 4750 4600
+Wire Wire Line
+	4750 4600 4950 4600
+Wire Wire Line
+	4950 4600 5500 4600
+Wire Wire Line
+	4750 4600 4750 3950
+Connection ~ 4500 4600
+Wire Wire Line
+	4950 4600 4950 3950
+Connection ~ 4750 4600
+Wire Wire Line
+	4500 3950 4500 4050
+Wire Wire Line
+	4500 4050 4500 4150
+Connection ~ 4500 4050
+$Comp
+L SiP32408 U?
+U 1 1 564D4EA1
+P 6050 3550
+F 0 "U?" H 5800 3850 60  0000 L CNN
+F 1 "SiP32408" H 5800 3750 60  0000 L CNN
+F 2 "" H 6100 3750 60  0000 C CNN
+F 3 "" H 6100 3750 60  0000 C CNN
+	1    6050 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 564D4EA2
+P 6550 4250
+F 0 "#PWR?" H 6550 4000 50  0001 C CNN
+F 1 "GND" H 6550 4100 50  0000 C CNN
+F 2 "" H 6550 4250 60  0000 C CNN
+F 3 "" H 6550 4250 60  0000 C CNN
+	1    6550 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4EA3
+P 5500 4200
+F 0 "C?" V 5450 4300 50  0000 L CNN
+F 1 "1uF " V 5450 3950 50  0000 L CNN
+F 2 "0805" H 5538 4050 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5500 4200 60  0001 C CNN
+F 4 "GRM219R61H105KA73D" H 5550 4000 39  0001 L BNN "MfgId"
+F 5 "Murata" H 5500 4200 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 5500 4200 60  0001 C CNN "Vend1"
+F 7 "490-10743-2-ND" H 5500 4200 60  0001 C CNN "Vend1Id"
+F 8 "0.03980" H 5500 4200 60  0001 C CNN "RefPrice1k"
+	1    5500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 564D4EA4
+P 6800 3800
+F 0 "C?" H 6650 3700 50  0000 L CNN
+F 1 "0.1uF" H 6550 3900 50  0000 L CNN
+F 2 "0805" H 6838 3650 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6800 3800 60  0001 C CNN
+F 4 "0.01880" V 6800 3800 60  0001 C CNN "RefPrice1k"
+F 5 "490-9672-2-ND" V 6800 3800 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 6800 3800 60  0001 C CNN "Vend1"
+F 7 "Murata" V 6800 3800 60  0001 C CNN "MfrId"
+F 8 "GRM21BR71H104MA01L" V 6800 3800 60  0001 C CNN "MfgId"
+	1    6800 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6500 3800 6550 3800
+Wire Wire Line
+	6550 3700 6550 3800
+Wire Wire Line
+	6550 3800 6550 4150
+Wire Wire Line
+	6550 4150 6550 4250
+Wire Wire Line
+	6500 3700 6550 3700
+Connection ~ 6550 3800
+Wire Wire Line
+	6550 4150 6800 4150
+Wire Wire Line
+	6800 4150 6800 3950
+Connection ~ 6550 4150
+Wire Wire Line
+	7250 3500 6800 3500
+Wire Wire Line
+	6800 3500 6500 3500
+Connection ~ 6800 3500
+Connection ~ 4950 3500
+Wire Wire Line
+	5500 3500 5500 4050
+Connection ~ 5500 3500
+Wire Wire Line
+	5500 4600 5500 4350
+Connection ~ 4950 4600
+$Comp
+L F_Small F?
+U 1 1 564D4EA5
+P 10250 2750
+F 0 "F?" H 10210 2810 50  0000 L CNN
+F 1 "2A PTC" H 10130 2690 50  0000 L CNN
+F 2 "1812" H 10250 2750 60  0001 C CNN
+F 3 "http://www.belfuse.com/pdfs/0ZCG.pdf" H 10250 2750 60  0001 C CNN
+F 4 "Digikey" H 10250 2750 60  0001 C CNN "Vend1"
+F 5 "507-1777-1-ND" H 10250 2750 60  0001 C CNN "Vend1Id"
+F 6 "Bel Fuse" H 10250 2750 60  0001 C CNN "MfrId"
+F 7 "0ZCG0200FF2C" H 10250 2750 60  0001 C CNN "MfgId"
+F 8 "0.09403" H 10250 2750 60  0001 C CNN "RefPrice1k"
+	1    10250 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 2750 10450 2750
+Wire Wire Line
+	10250 3050 10250 3400
+Wire Wire Line
+	8100 2750 8100 1050
+Connection ~ 5150 3500
+Connection ~ 8450 2750
+Wire Wire Line
+	7250 1500 7250 1600
+Wire Wire Line
+	7250 1600 7250 3500
+Wire Wire Line
+	6800 3500 6800 3650
+$Comp
+L +5V #PWR?
+U 1 1 564D4EA6
+P 7250 1500
+F 0 "#PWR?" H 7250 1350 50  0001 C CNN
+F 1 "+5V" H 7250 1640 50  0000 C CNN
+F 2 "" H 7250 1500 60  0000 C CNN
+F 3 "" H 7250 1500 60  0000 C CNN
+	1    7250 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 1600 6800 1750
+Connection ~ 7250 1600
+Text HLabel 2200 4300 0    60   Input ~ 0
+VBUS_UPSTREAM
+Text HLabel 2000 5400 0    60   Input ~ 0
+CONVERTED_5V
+Text HLabel 1900 5700 0    60   Input ~ 0
+CONVERTED_5V_OKAY
+$EndSCHEMATC
