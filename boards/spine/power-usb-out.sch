@@ -204,66 +204,6 @@ F 3 "" H 4600 4450 60  0000 C CNN
 	1    4600 4450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 4450 4350 4400
-Wire Wire Line
-	4100 4000 4350 4000
-Wire Wire Line
-	4350 4000 4700 4000
-Wire Wire Line
-	4350 4100 4350 4000
-Connection ~ 4350 4000
-Wire Wire Line
-	7000 3800 6900 3800
-Wire Wire Line
-	6900 3800 6900 3900
-Wire Wire Line
-	6900 3900 7000 3900
-Wire Wire Line
-	6900 3700 7000 3700
-Wire Wire Line
-	6900 4000 7000 4000
-Wire Wire Line
-	5600 4000 5650 4000
-Wire Wire Line
-	5650 3900 5650 4000
-Wire Wire Line
-	5650 4000 5650 4350
-Wire Wire Line
-	5650 4350 5650 4450
-Wire Wire Line
-	5600 3900 5650 3900
-Connection ~ 5650 4000
-Wire Wire Line
-	5900 4350 5900 4150
-Connection ~ 5650 4350
-Wire Wire Line
-	5600 3700 5900 3700
-Wire Wire Line
-	5900 3700 6150 3700
-Wire Wire Line
-	6150 3700 6300 3700
-Wire Wire Line
-	5900 3700 5900 3850
-Connection ~ 5900 3700
-Wire Wire Line
-	6150 3700 6150 3850
-Connection ~ 6150 3700
-Wire Wire Line
-	6600 4000 6400 4000
-Connection ~ 5900 4350
-Wire Wire Line
-	7400 4350 7400 4200
-Connection ~ 6400 4350
-Wire Wire Line
-	6150 4350 6150 4150
-Connection ~ 6150 4350
-Wire Wire Line
-	4600 4150 4600 3700
-Wire Wire Line
-	4100 3700 4600 3700
-Wire Wire Line
-	4600 3700 4700 3700
 $Comp
 L F_Small F?
 U 1 1 564D338C
@@ -280,21 +220,71 @@ F 8 "0.09403" H 6400 3700 60  0001 C CNN "RefPrice1k"
 	1    6400 3700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6500 3700 6600 3700
-Wire Wire Line
-	6400 4000 6400 4350
-Wire Wire Line
-	5650 4350 5900 4350
-Wire Wire Line
-	5900 4350 6150 4350
-Wire Wire Line
-	6150 4350 6400 4350
-Wire Wire Line
-	6400 4350 7400 4350
-Connection ~ 4600 3700
 Text HLabel 4100 3700 0    60   Input ~ 0
 5V_IN
 Text HLabel 4100 4000 0    60   Input ~ 0
 ENABLE
+Wire Wire Line
+	4350 4450 4350 4400
+Wire Wire Line
+	4100 4000 4700 4000
+Wire Wire Line
+	4350 4100 4350 4000
+Connection ~ 4350 4000
+Wire Wire Line
+	7000 3800 6900 3800
+Wire Wire Line
+	6900 3800 6900 3900
+Wire Wire Line
+	6900 3900 7000 3900
+Wire Wire Line
+	6900 3700 7000 3700
+Wire Wire Line
+	6900 4000 7000 4000
+Wire Wire Line
+	5600 4000 5650 4000
+Wire Wire Line
+	5650 3900 5650 4450
+Wire Wire Line
+	5600 3900 5650 3900
+Connection ~ 5650 4000
+Wire Wire Line
+	5900 4350 5900 4150
+Connection ~ 5650 4350
+Wire Wire Line
+	5600 3700 6300 3700
+Wire Wire Line
+	5900 3700 5900 3850
+Connection ~ 5900 3700
+Wire Wire Line
+	6150 3700 6150 3850
+Connection ~ 6150 3700
+Wire Wire Line
+	6600 4000 6400 4000
+Connection ~ 5900 4350
+Wire Wire Line
+	6150 4350 6150 4150
+Connection ~ 6150 4350
+Wire Wire Line
+	4600 4150 4600 3700
+Wire Wire Line
+	4100 3700 4700 3700
+Wire Wire Line
+	6500 3700 6600 3700
+Wire Wire Line
+	6400 4350 6400 4000
+Connection ~ 4600 3700
+Wire Wire Line
+	5650 4350 6400 4350
+$Comp
+L GND #PWR?
+U 1 1 564CFCD3
+P 7400 4200
+F 0 "#PWR?" H 7400 3950 50  0001 C CNN
+F 1 "GND" H 7400 4050 50  0000 C CNN
+F 2 "" H 7400 4200 60  0000 C CNN
+F 3 "" H 7400 4200 60  0000 C CNN
+	1    7400 4200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
