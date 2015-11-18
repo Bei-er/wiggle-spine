@@ -54,10 +54,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L R R?
+L R R25
 U 1 1 564CF3B2
 P 4400 4300
-F 0 "R?" V 4480 4300 50  0000 C CNN
+F 0 "R25" V 4480 4300 50  0000 C CNN
 F 1 "100k" V 4400 4300 50  0000 C CNN
 F 2 "" V 4330 4300 30  0000 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4400 4300 30  0001 C CNN
@@ -70,10 +70,10 @@ F 8 "0.00320" V 4400 4300 60  0001 C CNN "RefPrice1k"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR?
+L GND #PWR0126
 U 1 1 564CF3B3
 P 3300 4800
-F 0 "#PWR?" H 3300 4550 50  0001 C CNN
+F 0 "#PWR0126" H 3300 4550 50  0001 C CNN
 F 1 "GND" H 3300 4650 50  0000 C CNN
 F 2 "" H 3300 4800 60  0000 C CNN
 F 3 "" H 3300 4800 60  0000 C CNN
@@ -81,10 +81,10 @@ F 3 "" H 3300 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C55
 U 1 1 564CF3B4
 P 3300 4200
-F 0 "C?" V 3250 4300 50  0000 L CNN
+F 0 "C55" V 3250 4300 50  0000 L CNN
 F 1 "10uF " V 3250 3900 50  0000 L CNN
 F 2 "1206" H 3338 4050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3300 4200 60  0001 C CNN
@@ -97,10 +97,10 @@ F 8 "0.07429" H 3300 4200 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C57
 U 1 1 564CF3B6
 P 3850 4350
-F 0 "C?" H 3900 4450 50  0000 L CNN
+F 0 "C57" H 3900 4450 50  0000 L CNN
 F 1 "1uF " H 3900 4250 50  0000 L CNN
 F 2 "0805" H 3888 4200 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3850 4350 60  0001 C CNN
@@ -113,10 +113,10 @@ F 8 "0.03980" H 3850 4350 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RT8299A U?
+L RT8299A U9
 U 1 1 564CF3B7
 P 5050 3600
-F 0 "U?" H 4800 3600 60  0000 L CNN
+F 0 "U9" H 4800 3600 60  0000 L CNN
 F 1 "RT8299A" H 4800 2350 60  0000 L CNN
 F 2 "8-SOP-EP" H 5050 3600 60  0001 C CNN
 F 3 "http://www.richtek.com/assets/product_file/RT8299A/DS8299A-03.pdf" H 5050 3600 60  0001 C CNN
@@ -129,10 +129,10 @@ F 8 "0.37752" H 5050 3600 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C58
 U 1 1 564CF3B8
 P 6100 3800
-F 0 "C?" V 6050 3700 50  0000 R CNN
+F 0 "C58" V 6050 3700 50  0000 R CNN
 F 1 "0.1uF" V 6050 3850 50  0000 L CNN
 F 2 "0805" H 6138 3650 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6100 3800 60  0001 C CNN
@@ -145,10 +145,10 @@ F 8 "GRM21BR71H104MA01L" V 6100 3800 60  0001 C CNN "MfgId"
 	0    1    1    0   
 $EndComp
 $Comp
-L INDUCTOR L?
+L INDUCTOR L2
 U 1 1 564CF3B9
 P 6500 3400
-F 0 "L?" H 6400 3350 50  0000 C CNN
+F 0 "L2" H 6400 3350 50  0000 C CNN
 F 1 "22uH" H 6350 3450 50  0000 C CNN
 F 2 "" H 6500 3400 60  0000 C CNN
 F 3 "http://www.bourns.com/docs/Product-Datasheets/SRR1280.pdf" H 6500 3400 60  0001 C CNN
@@ -161,10 +161,10 @@ F 8 "0.42160" V 6500 3400 60  0001 C CNN "RefPrice1k"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L R R26
 U 1 1 564CF3BA
 P 6500 4600
-F 0 "R?" V 6580 4600 50  0000 C CNN
+F 0 "R26" V 6580 4600 50  0000 C CNN
 F 1 "150" V 6500 4600 50  0000 C CNN
 F 2 "" V 6430 4600 30  0000 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 6500 4600 30  0001 C CNN
@@ -177,10 +177,10 @@ F 8 "RMCF0805JT150R" V 6500 4600 60  0001 C CNN "MfgId"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C?
+L C C59
 U 1 1 564CF3BB
 P 6500 4900
-F 0 "C?" H 6350 4800 50  0000 L CNN
+F 0 "C59" H 6350 4800 50  0000 L CNN
 F 1 "100pF" H 6250 5000 50  0000 L CNN
 F 2 "0805" H 6538 4750 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6500 4900 60  0001 C CNN
@@ -193,51 +193,33 @@ F 8 "GRM2165C1H101JA01D" V 6500 4900 60  0001 C CNN "MfgId"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5650 3800 5750 3800
-Wire Wire Line
-	5750 3800 5950 3800
+	5650 3800 5950 3800
 Wire Wire Line
 	4600 4550 4500 4550
 Wire Wire Line
 	4500 4550 4500 4650
 Wire Wire Line
-	3300 4650 3550 4650
-Wire Wire Line
-	3550 4650 3850 4650
-Wire Wire Line
-	3850 4650 4500 4650
-Wire Wire Line
-	4500 4650 4600 4650
+	3300 4650 4600 4650
 Connection ~ 4500 4650
 Wire Wire Line
-	3300 4350 3300 4650
-Wire Wire Line
-	3300 4650 3300 4800
+	3300 4350 3300 4800
 Connection ~ 3300 4650
 Wire Wire Line
 	3550 4350 3550 4650
 Connection ~ 3550 4650
 Wire Wire Line
-	3300 3800 3550 3800
-Wire Wire Line
-	3550 3800 4450 3800
-Wire Wire Line
-	4450 3800 4600 3800
+	3300 3800 4600 3800
 Wire Wire Line
 	3550 3800 3550 4050
 Wire Wire Line
-	3300 3650 3300 3800
-Wire Wire Line
-	3300 3800 3300 4050
+	3300 3650 3300 4050
 Connection ~ 3550 3800
 Connection ~ 3300 3800
 Wire Wire Line
 	3850 4500 3850 4650
 Connection ~ 3850 4650
 Wire Wire Line
-	3850 4050 4150 4050
-Wire Wire Line
-	4150 4050 4600 4050
+	3850 4050 4600 4050
 Wire Wire Line
 	3850 4050 3850 4200
 Wire Wire Line
@@ -250,16 +232,12 @@ Connection ~ 4150 4050
 Wire Wire Line
 	6250 3800 6500 3800
 Wire Wire Line
-	6500 3700 6500 3800
-Wire Wire Line
-	6500 3800 6500 4050
-Wire Wire Line
-	6500 4050 6500 4450
+	6500 3700 6500 4450
 $Comp
-L C C?
+L C C56
 U 1 1 564CF3BC
 P 3550 4200
-F 0 "C?" V 3500 4300 50  0000 L CNN
+F 0 "C56" V 3500 4300 50  0000 L CNN
 F 1 "10uF " V 3500 3900 50  0000 L CNN
 F 2 "1206" H 3588 4050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3550 4200 60  0001 C CNN
@@ -272,10 +250,10 @@ F 8 "0.07429" H 3550 4200 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C60
 U 1 1 564CF3BD
 P 7600 4200
-F 0 "C?" V 7550 4300 50  0000 L CNN
+F 0 "C60" V 7550 4300 50  0000 L CNN
 F 1 "10uF " V 7550 3900 50  0000 L CNN
 F 2 "1206" H 7638 4050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7600 4200 60  0001 C CNN
@@ -288,10 +266,10 @@ F 8 "0.07429" H 7600 4200 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C61
 U 1 1 564CF3BE
 P 7850 4200
-F 0 "C?" V 7800 4300 50  0000 L CNN
+F 0 "C61" V 7800 4300 50  0000 L CNN
 F 1 "10uF " V 7800 3900 50  0000 L CNN
 F 2 "1206" H 7888 4050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7850 4200 60  0001 C CNN
@@ -304,10 +282,10 @@ F 8 "0.07429" H 7850 4200 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R?
+L R R28
 U 1 1 564CF3BF
 P 7150 4600
-F 0 "R?" H 7200 4650 50  0000 L CNN
+F 0 "R28" H 7200 4650 50  0000 L CNN
 F 1 "5.1k 1%" H 7200 4550 50  0000 L CNN
 F 2 "0805" V 7080 4600 30  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7150 4600 30  0001 C CNN
@@ -320,10 +298,10 @@ F 8 "0.00448" V 7150 4600 60  0001 C CNN "RefPrice1k"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R?
+L R R27
 U 1 1 564CF3C0
 P 7150 4000
-F 0 "R?" H 7200 4050 50  0000 L CNN
+F 0 "R27" H 7200 4050 50  0000 L CNN
 F 1 "16k 1%" H 7200 3950 50  0000 L CNN
 F 2 "0805" V 7080 4000 30  0001 C CNN
 F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 7150 4000 30  0001 C CNN
@@ -336,9 +314,7 @@ F 8 "0.00448" V 7150 4000 60  0001 C CNN "RefPrice1k"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7600 2900 7600 3000
-Wire Wire Line
-	7600 3000 7600 4050
+	7600 2900 7600 4050
 Wire Wire Line
 	7850 3000 7850 4050
 Connection ~ 7600 3000
@@ -349,9 +325,7 @@ Connection ~ 6500 4050
 Wire Wire Line
 	5650 4300 7150 4300
 Wire Wire Line
-	7150 4150 7150 4300
-Wire Wire Line
-	7150 4300 7150 4450
+	7150 4150 7150 4450
 Connection ~ 7150 4300
 Wire Wire Line
 	6500 3100 6500 3000
@@ -361,20 +335,14 @@ Connection ~ 7150 3000
 Wire Wire Line
 	7150 4750 7150 5150
 Wire Wire Line
-	6500 5150 7150 5150
+	6500 5150 7850 5150
 Wire Wire Line
-	7150 5150 7600 5150
-Wire Wire Line
-	7600 5150 7850 5150
-Wire Wire Line
-	6500 5050 6500 5150
-Wire Wire Line
-	6500 5150 6500 5300
+	6500 5050 6500 5300
 $Comp
-L GND #PWR?
+L GND #PWR0127
 U 1 1 564CF3C3
 P 6500 5300
-F 0 "#PWR?" H 6500 5050 50  0001 C CNN
+F 0 "#PWR0127" H 6500 5050 50  0001 C CNN
 F 1 "GND" H 6500 5150 50  0000 C CNN
 F 2 "" H 6500 5300 60  0000 C CNN
 F 3 "" H 6500 5300 60  0000 C CNN
@@ -384,10 +352,10 @@ $EndComp
 Connection ~ 6500 5150
 NoConn ~ 5650 4550
 $Comp
-L +5V #PWR?
+L +5V #PWR0128
 U 1 1 564CF485
 P 3300 3650
-F 0 "#PWR?" H 3300 3500 50  0001 C CNN
+F 0 "#PWR0128" H 3300 3500 50  0001 C CNN
 F 1 "+5V" H 3300 3790 50  0000 C CNN
 F 2 "" H 3300 3650 60  0000 C CNN
 F 3 "" H 3300 3650 60  0000 C CNN
@@ -395,10 +363,10 @@ F 3 "" H 3300 3650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR?
+L +3.3V #PWR0129
 U 1 1 564CF4B3
 P 7600 2900
-F 0 "#PWR?" H 7600 2750 50  0001 C CNN
+F 0 "#PWR0129" H 7600 2750 50  0001 C CNN
 F 1 "+3.3V" H 7600 3040 50  0000 C CNN
 F 2 "" H 7600 2900 60  0000 C CNN
 F 3 "" H 7600 2900 60  0000 C CNN
@@ -406,11 +374,7 @@ F 3 "" H 7600 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6500 3000 7150 3000
-Wire Wire Line
-	7150 3000 7600 3000
-Wire Wire Line
-	7600 3000 7850 3000
+	6500 3000 7850 3000
 Wire Wire Line
 	7600 5150 7600 4350
 Connection ~ 7150 5150
@@ -418,10 +382,10 @@ Wire Wire Line
 	7850 5150 7850 4350
 Connection ~ 7600 5150
 $Comp
-L D_Schottky_x2_KCom_AAK D?
+L D_Schottky_x2_KCom_AAK D6
 U 1 1 564CE8A7
 P 5750 3000
-F 0 "D?" V 5650 2850 50  0000 C CNN
+F 0 "D6" V 5650 2850 50  0000 C CNN
 F 1 "BAT54 2x common cathode" H 5750 3100 50  0001 C CNN
 F 2 "" H 5750 3000 60  0000 C CNN
 F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 5750 3000 60  0001 C CNN
@@ -445,11 +409,11 @@ Wire Wire Line
 Wire Wire Line
 	5350 2750 5350 3000
 Wire Wire Line
-	4450 3000 5350 3000
-Wire Wire Line
-	5350 3000 5450 3000
+	4450 3000 5450 3000
 Wire Wire Line
 	4450 3000 4450 3800
 Connection ~ 4450 3800
 Connection ~ 5350 3000
+Text Notes 5350 2650 0    60   ~ 0
+Bootstrap assistance diode;\nsee RT8299A data sheet
 $EndSCHEMATC

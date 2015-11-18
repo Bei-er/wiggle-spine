@@ -14,6 +14,11 @@ D Hex inverseur schmitt trigger
 K TTL not inv
 $ENDCMP
 #
+$CMP D_Schottky_x2_ACom_KKA
+D Double diode Schottky (Serie)
+K DEV DIODE
+$ENDCMP
+#
 $CMP NC7WZ14
 D Hex Inverseur
 K HCTMOS not inv
