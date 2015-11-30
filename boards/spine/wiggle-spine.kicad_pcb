@@ -12,7 +12,12 @@
     (nets 196)
   )
 
-  (page A4)
+  (page USLetter)
+  (title_block
+    (title "Wiggle Spine")
+    (rev A)
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
