@@ -3,6 +3,8 @@
 Modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
 
+[![Join the chat at https://gitter.im/scanlime/wiggleport](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/scanlime/wiggleport?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 * Use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
 * Drive up to 14 speakers at 48/96 kHz per channel from one USB port
 * Connect sensors and lights, sync them perfectly with sound and each other
