@@ -19,6 +19,10 @@ D Double diode Schottky (Serie)
 K DEV DIODE
 $ENDCMP
 #
+$CMP LED_BGR
+D LED RGB 6 pins
+$ENDCMP
+#
 $CMP NC7WZ14
 D Hex Inverseur
 K HCTMOS not inv
