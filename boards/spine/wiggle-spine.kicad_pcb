@@ -1,9 +1,9 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.0-rc2-1-stable)
 
   (general
-    (links 0)
+    (links 613)
     (no_connects 613)
-    (area 0 0 0 0)
+    (area 64.094999 58.431436 165.785715 220.3648)
     (thickness 1.6)
     (drawings 11)
     (tracks 0)
@@ -6808,7 +6808,7 @@
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /5641D2D7/5641D86E)
-    (fp_text reference MOD1 (at 25.4 5.08 540) (layer F.SilkS)
+    (fp_text reference MOD1 (at 0.254 -2.286 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "2.54mm 2x10 right angle female header" (at 0 -2.6 270) (layer F.Fab) hide
@@ -7045,7 +7045,7 @@
   )
 
   (module Wiggleport:wiggleport-wordmark (layer F.Cu) (tedit 0) (tstamp 565FE7B7)
-    (at 123.444 172.212 90)
+    (at 122.936 173.228 90)
     (fp_text reference G*** (at 0 0 90) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
