@@ -157,6 +157,8 @@ C72,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM2
 CON2,5-24V 16A,Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol,http://www.diytrade.com/china/pd/11802786/terminal_block_2EDG_5_08_2P_3P_4P_5P_6P_7P_8P_9P_10P_11P_12P_13P_14P.html,eBay,http://www.ebay.com/itm/331290774584,0.23,E-xun,2EDG-3.81,4way 4pin Screw PCB Terminal Block Connector 3.81mm Pitch Pluggable Type
 D8,8.5VWM,TO_SOT_Packages_SMD:SOT-23,http://www.onsemi.com/pub_link/Collateral/MMBZ5V6ALT1-D.PDF,Digikey,MMBZ12VALT1GOSCT-ND,.04471,ON Semi,MMBZ12VALT1G,
 R33,100k,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT100KCT-ND,0.00320,Stackpole,RMCF0805JT100K,
+FB8,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf,Digikey,1276-6342-2-ND,0.00906,Samsung,CIB21P260NE,
+FB9,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf,Digikey,1276-6342-2-ND,0.00906,Samsung,CIB21P260NE,
 C77,1uF ,Capacitors_SMD:C_0805,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10743-2-ND,0.03980,Murata,GRM219R61H105KA73D,
 C76,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,
 U14,TCR2EF12,TO_SOT_Packages_SMD:SOT-23-5,http://www.semicon.toshiba.co.jp/info/docget.jsp?pid=TCR2EE10&lang=en&type=datasheet,Digikey,TCR2EF12LM(CTCT-ND,0.07110,Toshiba,TCR2EF12.LM(CT,LDO 1.2V 200mA
