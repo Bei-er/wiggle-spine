@@ -59,7 +59,7 @@ U 1 1 5641D86E
 P 2650 3050
 F 0 "MOD1" H 2650 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 2650 3050 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 2650 1850 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 2650 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 2650 1850 60  0001 C CNN
 F 4 "Centronic" H 2650 3050 60  0001 C CNN "MfrId"
 F 5 "230-20" H 2650 3050 60  0001 C CNN "MfgId"
@@ -1113,7 +1113,7 @@ U 1 1 5641FA35
 P 4550 3050
 F 0 "MOD2" H 4550 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 4550 3050 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 4550 1850 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 4550 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 4550 1850 60  0001 C CNN
 F 4 "Centronic" H 4550 3050 60  0001 C CNN "MfrId"
 F 5 "230-20" H 4550 3050 60  0001 C CNN "MfgId"
@@ -1129,7 +1129,7 @@ U 1 1 5641FA76
 P 6450 3050
 F 0 "MOD3" H 6450 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 6450 3050 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 6450 1850 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 6450 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 6450 1850 60  0001 C CNN
 F 4 "Centronic" H 6450 3050 60  0001 C CNN "MfrId"
 F 5 "230-20" H 6450 3050 60  0001 C CNN "MfgId"
@@ -1145,7 +1145,7 @@ U 1 1 5641FAB5
 P 8350 3050
 F 0 "MOD4" H 8350 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 8350 3050 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 8350 1850 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 8350 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 8350 1850 60  0001 C CNN
 F 4 "Centronic" H 8350 3050 60  0001 C CNN "MfrId"
 F 5 "230-20" H 8350 3050 60  0001 C CNN "MfgId"
@@ -1161,7 +1161,7 @@ U 1 1 5641FAF2
 P 3600 4600
 F 0 "MOD5" H 3600 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 3600 4600 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 3600 3400 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 3600 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 3600 3400 60  0001 C CNN
 F 4 "Centronic" H 3600 4600 60  0001 C CNN "MfrId"
 F 5 "230-20" H 3600 4600 60  0001 C CNN "MfgId"
@@ -1177,7 +1177,7 @@ U 1 1 5641FB49
 P 5500 4600
 F 0 "MOD6" H 5500 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 5500 4600 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 5500 3400 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 5500 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 5500 3400 60  0001 C CNN
 F 4 "Centronic" H 5500 4600 60  0001 C CNN "MfrId"
 F 5 "230-20" H 5500 4600 60  0001 C CNN "MfgId"
@@ -1193,7 +1193,7 @@ U 1 1 5641FB8C
 P 7400 4600
 F 0 "MOD7" H 7400 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 7400 4600 50  0001 C CNN
-F 2 "Socket_Strips:Socket_Strip_Angled_2x10" H 7400 3400 60  0001 C CNN
+F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 7400 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 7400 3400 60  0001 C CNN
 F 4 "Centronic" H 7400 4600 60  0001 C CNN "MfrId"
 F 5 "230-20" H 7400 4600 60  0001 C CNN "MfgId"
@@ -2138,7 +2138,7 @@ A2 A4 69 3A 2D 7E 4C FF AB 78 3E 2F 42 71 22 4D 57 00 BC C2 CC AF C4 33 FA FF 32
 9E 48 66 C8 87 00 7E 03 E0 5D 22 7A 3B 49 92 37 51 3F A7 8F A3 6E 10 BF 6E 77 82 4D 4C BA 2B DE 
 FB 59 00 E6 A5 69 3A 37 9E CF 73 BC F7 37 E3 33 5D 9E A8 3E 7F 80 FA F7 F6 BB 44 F4 6E D4 E7 77 
 A2 1E 1F 27 A2 E3 16 70 32 E9 54 FE 3F E7 AF 00 CA 1C A3 36 0A 00 00 00 00 49 45 4E 44 AE 42 60 
-82 D1 
+82 00 
 EndData
 $EndBitmap
 Text Notes 6700 7750 0    79   ~ 0
