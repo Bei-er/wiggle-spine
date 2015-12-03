@@ -110,12 +110,12 @@ P 1600 2350
 F 0 "FB2" H 1750 2400 50  0000 C BNN
 F 1 "Ferrite bead" H 2000 2400 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 1600 2500 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 1625 2350 60  0001 C CNN
-F 4 "0.00906" H 1600 2350 60  0001 C CNN "RefPrice1k"
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 1625 2350 60  0001 C CNN
+F 4 "0.02383" H 1600 2350 60  0001 C CNN "RefPrice1k"
 F 5 "Samsung" H 1600 2350 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 1600 2350 60  0001 C CNN "MfgId"
+F 6 "CIS21P300NE" H 1600 2350 60  0001 C CNN "MfgId"
 F 7 "Digikey" H 1600 2350 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 1600 2350 60  0001 C CNN "Vend1Id"
+F 8 "1276-6370-1-ND" H 1600 2350 60  0001 C CNN "Vend1Id"
 	1    1600 2350
 	1    0    0    -1  
 $EndComp
@@ -126,12 +126,12 @@ P 1500 3150
 F 0 "FB1" H 1650 3050 50  0000 C BNN
 F 1 "Ferrite bead" H 1900 3050 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 1500 3300 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 1525 3150 60  0001 C CNN
-F 4 "0.00906" H 1500 3150 60  0001 C CNN "RefPrice1k"
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 1525 3150 60  0001 C CNN
+F 4 "0.02383" H 1500 3150 60  0001 C CNN "RefPrice1k"
 F 5 "Samsung" H 1500 3150 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 1500 3150 60  0001 C CNN "MfgId"
+F 6 "CIS21P300NE" H 1500 3150 60  0001 C CNN "MfgId"
 F 7 "Digikey" H 1500 3150 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 1500 3150 60  0001 C CNN "Vend1Id"
+F 8 "1276-6370-1-ND" H 1500 3150 60  0001 C CNN "Vend1Id"
 	1    1500 3150
 	0    -1   -1   0   
 $EndComp
@@ -279,12 +279,12 @@ P 3400 6450
 F 0 "FB3" H 3550 6500 50  0000 C BNN
 F 1 "Ferrite bead" H 3800 6500 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 3400 6600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 3425 6450 60  0001 C CNN
-F 4 "0.00906" H 3400 6450 60  0001 C CNN "RefPrice1k"
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 3425 6450 60  0001 C CNN
+F 4 "0.02383" H 3400 6450 60  0001 C CNN "RefPrice1k"
 F 5 "Samsung" H 3400 6450 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 3400 6450 60  0001 C CNN "MfgId"
+F 6 "CIS21P300NE" H 3400 6450 60  0001 C CNN "MfgId"
 F 7 "Digikey" H 3400 6450 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 3400 6450 60  0001 C CNN "Vend1Id"
+F 8 "1276-6370-1-ND" H 3400 6450 60  0001 C CNN "Vend1Id"
 	1    3400 6450
 	0    1    1    0   
 $EndComp
@@ -1171,12 +1171,12 @@ P 4750 6450
 F 0 "FB4" H 4900 6500 50  0000 C BNN
 F 1 "Ferrite bead" H 5150 6500 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 4750 6600 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 4775 6450 60  0001 C CNN
-F 4 "0.00906" H 4750 6450 60  0001 C CNN "RefPrice1k"
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 4775 6450 60  0001 C CNN
+F 4 "0.02383" H 4750 6450 60  0001 C CNN "RefPrice1k"
 F 5 "Samsung" H 4750 6450 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 4750 6450 60  0001 C CNN "MfgId"
+F 6 "CIS21P300NE" H 4750 6450 60  0001 C CNN "MfgId"
 F 7 "Digikey" H 4750 6450 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 4750 6450 60  0001 C CNN "Vend1Id"
+F 8 "1276-6370-1-ND" H 4750 6450 60  0001 C CNN "Vend1Id"
 	1    4750 6450
 	0    1    1    0   
 $EndComp

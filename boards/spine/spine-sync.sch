@@ -195,12 +195,12 @@ P 6050 4400
 F 0 "FB7" H 6200 4450 50  0000 C BNN
 F 1 "Ferrite bead" H 6450 4450 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 6050 4550 50  0001 C CNN
-F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIB21P110NE.pdf" H 6075 4400 60  0001 C CNN
-F 4 "0.00906" H 6050 4400 60  0001 C CNN "RefPrice1k"
+F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 6075 4400 60  0001 C CNN
+F 4 "0.02383" H 6050 4400 60  0001 C CNN "RefPrice1k"
 F 5 "Samsung" H 6050 4400 60  0001 C CNN "MfrId"
-F 6 "CIB21P260NE" H 6050 4400 60  0001 C CNN "MfgId"
+F 6 "CIS21P300NE" H 6050 4400 60  0001 C CNN "MfgId"
 F 7 "Digikey" H 6050 4400 60  0001 C CNN "Vend1"
-F 8 "1276-6342-2-ND" H 6050 4400 60  0001 C CNN "Vend1Id"
+F 8 "1276-6370-1-ND" H 6050 4400 60  0001 C CNN "Vend1Id"
 	1    6050 4400
 	0    1    1    0   
 $EndComp
