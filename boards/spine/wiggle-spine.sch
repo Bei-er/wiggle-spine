@@ -31,13 +31,6 @@ LIBS:valves
 LIBS:ftdi
 LIBS:Lattice
 LIBS:silabs
-LIBS:Cypress_cy8c5xlp
-LIBS:Cypress_PSoC
-LIBS:Lattice_iCE_FPGA
-LIBS:xess
-LIBS:xilinx6s
-LIBS:xilinx6v
-LIBS:xilinx7
 LIBS:wiggle-spine-cache
 EELAYER 25 0
 EELAYER END
