@@ -20,4 +20,11 @@ set_io LED3 97
 set_io LED2 98
 set_io LED1 99
 
-set_io DEBUG1 112
+set_io DEBUG[0] 112
+set_io DEBUG[1] 113
+set_io DEBUG[2] 114
+set_io DEBUG[3] 115
+set_io DEBUG[4] 116
+set_io DEBUG[5] 117
+set_io DEBUG[6] 118
+set_io DEBUG[7] 119
