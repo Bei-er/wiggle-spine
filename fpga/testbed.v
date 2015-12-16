@@ -41,14 +41,23 @@ assign RED_N = !(divider[7:0] < red_pwm);
 assign GREEN_N = !(divider[7:0] < green_pwm);
 assign BLUE_N = !(divider[7:0] < blue_pwm);
 
-wire power_modulation = divider[6:0] < 22;
-wire power_alt = divider[7];
+wire power_modulation = divider[5:0] < 15;
+wire power_alt = divider[6];
 assign DMX_GATE1 = !(power_modulation && power_alt);
 assign DMX_GATE2 = !(power_modulation && !power_alt);
 
-wire data_modulation = CLK12;
-wire data_value = blink;
+wire data_modulation = divider[0];
 assign DMX_TX1 = !(data_value && data_modulation);
 assign DMX_TX2 = !(data_value && !data_modulation);
+
+reg [7:0] baudgen;
+reg data_value;
+always @(posedge CLK12)
+	if (baudgen)
+		baudgen <= baudgen - 1;
+	else begin
+		data_value <= !data_value;
+		baudgen <= 12_000_000 / 250_000;
+	end
 
 endmodule
