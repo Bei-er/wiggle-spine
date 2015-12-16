@@ -2,17 +2,20 @@
 
 set_io CLK12 21
 
-set_io DMX_TX1 78
-set_io DMX_TX2 79
-set_io DMX_GATE1 80
-set_io DMX_GATE2 81
+set_io RS232_TX 8
+set_io RS232_RX 9
 
-set_io RED_N 88
-set_io GREEN_N 90
-set_io BLUE_N 91
+set_io DMX_TX1 87
+set_io DMX_TX2 88
+set_io DMX_GATE1 90
+set_io DMX_GATE2 91
 
-set_io LED4 95
-set_io LED3 96
-set_io LED2 97
-set_io LED1 98
-set_io LED0 99
+set_io RED_N 79
+set_io GREEN_N 80
+set_io BLUE_N 81
+
+set_io LED5 95
+set_io LED4 96
+set_io LED3 97
+set_io LED2 98
+set_io LED1 99
