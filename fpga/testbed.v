@@ -54,7 +54,8 @@ module top(
 		dmx_slot == 2 ? (blink ? 255 : 5) :
 		dmx_slot == 3 ? (blink ? 5 : 255) :
 		dmx_slot == 4 ? (blink ? 255 : 5) :
-		0;
+		dmx_slot < 32 ? 0 :
+		8'h55;
 endmodule
 
 module dmx_modulator(

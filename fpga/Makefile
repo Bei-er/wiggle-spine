@@ -5,7 +5,7 @@ PROJECT = testbed
 all: $(PROJECT).bin
 
 program: $(PROJECT).bin
-	iceprog $<
+	iceprog -S $<
 
 $(PROJECT).blif: $(SRC) $(PINS) Makefile
 	yosys -q -p "synth_ice40 -top top -blif $(PROJECT).blif" $(SRC)
