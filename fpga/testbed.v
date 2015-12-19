@@ -22,7 +22,7 @@ module top(
 	output [7:0] DEBUG
 	);
 
-	reg [23:0] divider;
+	reg [23:0] divider = 0;
 	always @(posedge CLK12)
 		divider <= divider + 1;
 	wire blink = divider[23];
@@ -68,10 +68,10 @@ module dmx_modulator(
 	);
 
 	parameter PULSE_WIDTH = 15;
-	parameter PERIOD = 46;
+	parameter PERIOD = 20;
 
-	reg [5:0] power_phase;
-	reg power_polarity;
+	reg [5:0] power_phase = 0;
+	reg power_polarity = 0;
 	wire power_modulation = power_phase < PULSE_WIDTH;
 
 	always @(posedge CLK12) begin
@@ -87,8 +87,13 @@ module dmx_modulator(
 	assign DMX_GATE1 = !(power_modulation && power_polarity);
 	assign DMX_GATE2 = !(power_modulation && !power_polarity);
 
-	assign DMX_TX1 = !(!data && CLK12);
-	assign DMX_TX2 = !(!data && !CLK12);
+	reg divider = 0;
+	always @(posedge CLK12)
+		divider <= ~divider;
+	wire data_modulation = divider[0];  // 6 MHz
+
+	assign DMX_TX1 = !(data && data_modulation);
+	assign DMX_TX2 = !(data && !data_modulation);
 endmodule
 
 module dmx_packetizer(
@@ -111,11 +116,11 @@ module dmx_packetizer(
 
 	parameter NUM_SLOTS = 512;
 
-	reg [5:0] baudgen;
-	reg [1:0] state;
-	reg [4:0] bit_count;
-	reg [9:0] slot_count;
-	reg [8:0] shifter;  // Includes start bit; stop bits are implied
+	reg [5:0] baudgen = 0;
+	reg [1:0] state = 0;
+	reg [4:0] bit_count = 0;
+	reg [9:0] slot_count = 0;
+	reg [8:0] shifter = 0;  // Includes start bit; stop bits are implied
 	reg dmx_data;
 
 	assign DEBUG = { bit_count, state, dmx_data };

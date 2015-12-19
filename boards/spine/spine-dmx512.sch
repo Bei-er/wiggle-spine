@@ -93,77 +93,43 @@ F 8 "Mouser" H 8050 4250 60  0001 C CNN "Vend1"
 	1    0    0    -1  
 $EndComp
 $Comp
-L NC7WZ14 U4
-U 1 1 563ECD2E
-P 4600 2000
-F 0 "U4" H 4750 2100 40  0000 C CNN
-F 1 "NC7WZ14" H 4800 1900 40  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SC-70-6" H 4600 2000 60  0001 C CNN
-F 3 "http://www.fairchildsemi.com/datasheets/NC/NC7WZ14.pdf" H 4600 2000 60  0001 C CNN
-F 4 "0.07631" H 4600 2000 60  0001 C CNN "RefPrice1k"
-F 5 "Fairchild" H 4600 2000 60  0001 C CNN "MfrId"
-F 6 "NC7WZ14P6X" H 4600 2000 60  0001 C CNN "MfgId"
-F 7 "Digikey" H 4600 2000 60  0001 C CNN "Vend1"
-F 8 "NC7WZ14P6XCT-ND" H 4600 2000 60  0001 C CNN "Vend1Id"
-	1    4600 2000
-	1    0    0    -1  
-$EndComp
-NoConn ~ 9550 1800
-$Comp
-L R R14
-U 1 1 563ED073
-P 4900 1600
-F 0 "R14" V 4980 1600 50  0000 C CNN
-F 1 "1M" V 4900 1600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4830 1600 30  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4900 1600 30  0001 C CNN
-F 4 "0.0032" V 4900 1600 60  0001 C CNN "RefPrice1k"
-F 5 "RMCF0805JT1M00CT-ND" V 4900 1600 60  0001 C CNN "Vend1Id"
-F 6 "Digikey" V 4900 1600 60  0001 C CNN "Vend1"
-F 7 "Stackpole" V 4900 1600 60  0001 C CNN "MfrId"
-F 8 "RMCF0805JT1M00" V 4900 1600 60  0001 C CNN "MfgId"
-	1    4900 1600
-	0    1    1    0   
-$EndComp
-NoConn ~ 10050 2000
-$Comp
 L C C22
 U 1 1 563EDC1A
-P 3350 2350
-F 0 "C22" H 3200 2450 50  0000 L CNN
-F 1 "1nF" H 3200 2200 50  0000 L BNN
-F 2 "Capacitors_SMD:C_0805" H 3388 2200 30  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R71H102KA01-01.pdf" H 3350 2350 60  0001 C CNN
-F 4 "0.0156" H 3350 2350 60  0001 C CNN "RefPrice1k"
-F 5 "Digikey" H 3350 2350 60  0001 C CNN "Vend1"
-F 6 "490-9741-1-ND" H 3350 2350 60  0001 C CNN "Vend1Id"
-F 7 "Murata" H 3350 2350 60  0001 C CNN "MfrId"
-F 8 "GRM216R71H102KA01D" H 3350 2350 60  0001 C CNN "MfgId"
-	1    3350 2350
+P 4650 2350
+F 0 "C22" H 4500 2450 50  0000 L CNN
+F 1 "1nF" H 4500 2200 50  0000 L BNN
+F 2 "Capacitors_SMD:C_0805" H 4688 2200 30  0001 C CNN
+F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R71H102KA01-01.pdf" H 4650 2350 60  0001 C CNN
+F 4 "0.0156" H 4650 2350 60  0001 C CNN "RefPrice1k"
+F 5 "Digikey" H 4650 2350 60  0001 C CNN "Vend1"
+F 6 "490-9741-1-ND" H 4650 2350 60  0001 C CNN "Vend1Id"
+F 7 "Murata" H 4650 2350 60  0001 C CNN "MfrId"
+F 8 "GRM216R71H102KA01D" H 4650 2350 60  0001 C CNN "MfgId"
+	1    4650 2350
 	-1   0    0    -1  
 $EndComp
 $Comp
 L D_Schottky_x2_KCom_AAK D3
 U 1 1 563EE535
-P 2500 2000
-F 0 "D3" V 2400 1850 50  0000 C CNN
-F 1 "BAT54 2x common cathode" H 2500 2100 50  0001 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 2500 2000 60  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2500 2000 60  0001 C CNN
-F 4 "Diodes Inc" H 2500 2150 39  0001 C CNN "MfrId"
-F 5 "BAT54C-7-F" H 2500 2100 39  0000 C CNN "MfgId"
-F 6 "BAT54C-FDICT-ND" V 2500 2000 60  0001 C CNN "Vend1Id"
-F 7 ".03955" V 2500 2000 60  0001 C CNN "RefPrice1k"
-F 8 "Digikey" V 2500 2000 60  0001 C CNN "Vend1"
-	1    2500 2000
+P 3800 2000
+F 0 "D3" V 3700 1850 50  0000 C CNN
+F 1 "BAT54 2x common cathode" H 3800 2100 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3800 2000 60  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3800 2000 60  0001 C CNN
+F 4 "Diodes Inc" H 3800 2150 39  0001 C CNN "MfrId"
+F 5 "BAT54C-7-F" H 3800 2100 39  0000 C CNN "MfgId"
+F 6 "BAT54C-FDICT-ND" V 3800 2000 60  0001 C CNN "Vend1Id"
+F 7 ".03955" V 3800 2000 60  0001 C CNN "RefPrice1k"
+F 8 "Digikey" V 3800 2000 60  0001 C CNN "Vend1"
+	1    3800 2000
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 8750 5450
-Text Label 1850 800  0    60   ~ 0
+Text Label 3150 800  0    60   ~ 0
 DMX_PWR1
-Text Label 1850 1400 0    60   ~ 0
+Text Label 3150 1400 0    60   ~ 0
 DMX_PWR2
-Text Label 1850 1700 0    60   ~ 0
+Text Label 3150 1700 0    60   ~ 0
 DMX_TX_OOK
 Text Label 9000 4250 0    60   ~ 0
 DMX_PWR1
@@ -173,18 +139,14 @@ Text Label 9000 5250 0    60   ~ 0
 DMX_TX_OOK
 Text Label 9000 5650 0    60   ~ 0
 DMX_GND
-Text Notes 800  1100 0    60   ~ 0
+Text Notes 2100 1100 0    60   ~ 0
 Isolated AC power
-Text Notes 800  2050 0    60   ~ 0
+Text Notes 2100 2050 0    60   ~ 0
 Isolated Tx data\nModulated with on-off keying
-Text Notes 9100 1850 0    60   ~ 0
-Spare
-Text Notes 3000 2900 0    60   ~ 0
+Text Notes 4300 2900 0    60   ~ 0
 Envelope detector
-Text Notes 2750 950  0    60   ~ 0
+Text Notes 4050 950  0    60   ~ 0
 Power filter
-Text Notes 4200 2900 0    60   ~ 0
-Hysteresis / DC bias
 Text Notes 5650 2900 0    60   ~ 0
 RS485 driver
 Text Notes 6800 2900 0    60   ~ 0
@@ -242,194 +204,8 @@ Text HLabel 2200 5650 0    60   Input ~ 0
 TX2
 Text Notes 3850 3700 0    60   ~ 0
 Medium-power drivers,\n2x SOT23-6 dual schmitt trigger inv
-Wire Wire Line
-	6400 1600 7650 1600
-Wire Wire Line
-	8450 1600 8550 1600
-Wire Wire Line
-	8050 2150 8050 2000
-Wire Wire Line
-	2700 1100 6450 1100
-Wire Wire Line
-	5350 1100 5350 1800
-Wire Wire Line
-	5350 1600 5500 1600
-Wire Wire Line
-	5350 1800 5500 1800
-Connection ~ 5350 1600
-Wire Wire Line
-	6400 1400 6450 1400
-Wire Wire Line
-	6450 1400 6450 1100
-Wire Wire Line
-	7450 2150 8050 2150
-Wire Wire Line
-	7600 2150 7600 1800
-Wire Wire Line
-	7600 1800 6400 1800
-Wire Wire Line
-	8550 1600 8550 2700
-Wire Wire Line
-	8550 2700 2500 2700
-Wire Wire Line
-	6450 2700 6450 2000
-Wire Wire Line
-	6450 2000 6400 2000
-Connection ~ 7600 2150
-Wire Wire Line
-	6650 1600 6650 2150
-Wire Wire Line
-	6650 2150 6850 2150
-Connection ~ 6650 1600
-Wire Wire Line
-	7150 2350 7150 2700
-Connection ~ 7150 2700
-Connection ~ 5350 1100
-Connection ~ 6450 2700
-Wire Wire Line
-	9550 2200 9550 2250
-Wire Wire Line
-	9550 2250 9100 2250
-Wire Wire Line
-	9100 2250 9100 2000
-Wire Wire Line
-	9100 2000 9150 2000
-Wire Wire Line
-	5050 2000 5500 2000
-Wire Wire Line
-	4550 2700 4550 2200
-Wire Wire Line
-	4550 1800 4550 1100
-Connection ~ 4550 1100
-Wire Wire Line
-	5050 1600 5200 1600
-Wire Wire Line
-	5200 1600 5200 2000
-Connection ~ 5200 2000
-Wire Wire Line
-	4750 1600 4150 1600
-Wire Wire Line
-	4150 1600 4150 2000
-Wire Wire Line
-	4150 2000 4050 2000
-Connection ~ 4150 2000
-Wire Wire Line
-	2700 2000 3750 2000
-Wire Wire Line
-	3650 2200 3650 2000
-Connection ~ 3650 2000
-Wire Wire Line
-	3650 2700 3650 2500
-Connection ~ 4550 2700
-Wire Wire Line
-	3350 2000 3350 2200
-Wire Wire Line
-	3350 2500 3350 2700
-Connection ~ 3650 2700
-Wire Wire Line
-	2500 2700 2500 2300
-Connection ~ 3350 2700
-Connection ~ 3350 2000
-Wire Wire Line
-	2850 1300 2850 1100
-Wire Wire Line
-	2850 1600 2850 2700
-Connection ~ 2850 2700
-Connection ~ 2850 1100
-Wire Wire Line
-	8750 4650 9650 4650
-Wire Wire Line
-	2500 1700 1850 1700
-Wire Wire Line
-	2500 1400 1850 1400
-Wire Wire Line
-	2500 800  1850 800 
-Wire Wire Line
-	8750 4250 9650 4250
-Wire Wire Line
-	8750 5250 9650 5250
-Wire Wire Line
-	8750 4450 8900 4450
-Wire Wire Line
-	8750 5650 9650 5650
-Connection ~ 8900 5650
-Wire Wire Line
-	8900 4450 8900 6100
-Wire Wire Line
-	5550 5650 7000 5650
-Wire Wire Line
-	6050 6100 6050 5100
-Wire Wire Line
-	2650 6100 7950 6100
-Wire Wire Line
-	5650 4650 5650 6100
-Connection ~ 5650 6100
-Wire Wire Line
-	6050 4700 6050 4650
-Wire Wire Line
-	6050 4650 7450 4650
-Wire Wire Line
-	6850 6100 6850 5100
-Connection ~ 6050 6100
-Wire Wire Line
-	6850 4450 6850 4800
-Wire Wire Line
-	6550 4450 7450 4450
-Wire Wire Line
-	7450 4250 5650 4250
-Wire Wire Line
-	2650 3800 6550 3800
-Connection ~ 6850 4450
-Wire Wire Line
-	7300 5650 7450 5650
-Wire Wire Line
-	4850 6100 4850 5450
-Wire Wire Line
-	4850 3800 4850 5050
-Wire Wire Line
-	5350 4450 4400 4450
-Wire Wire Line
-	4600 4900 5750 4900
-Connection ~ 4850 3800
-Connection ~ 4850 6100
-Wire Wire Line
-	5350 5250 7450 5250
-Wire Wire Line
-	3200 3800 3200 3900
-Wire Wire Line
-	2900 3800 2900 3900
-Connection ~ 3200 3800
-Wire Wire Line
-	2650 4450 3500 4450
-Wire Wire Line
-	2900 4200 2900 4450
-Connection ~ 2900 4450
-Wire Wire Line
-	3200 4200 3200 4900
-Wire Wire Line
-	2650 4900 3700 4900
-Connection ~ 3200 4900
-Wire Wire Line
-	3900 4250 3900 3800
-Connection ~ 3900 3800
-Wire Wire Line
-	3900 6100 3900 4650
-Connection ~ 2900 3800
-Connection ~ 3900 6100
-Wire Wire Line
-	2200 4450 2350 4450
-Wire Wire Line
-	2200 4900 2350 4900
-Wire Wire Line
-	2200 5250 4450 5250
-Wire Wire Line
-	2200 5650 4650 5650
 Text Notes 2800 3700 0    60   ~ 0
 FET protection\nDC blocking filter
-Wire Wire Line
-	2650 6250 2650 6100
-Wire Wire Line
-	2650 3800 2650 3550
 Text Notes 5800 3700 0    60   ~ 0
 DC-DC FETs and input filter
 Text Notes 6950 5950 0    60   ~ 0
@@ -438,11 +214,6 @@ NoConn ~ 4100 4700
 NoConn ~ 4100 5100
 NoConn ~ 5050 5450
 NoConn ~ 5050 5850
-Wire Wire Line
-	8250 2000 8250 2150
-Wire Wire Line
-	8250 2150 8550 2150
-Connection ~ 8550 2150
 $Comp
 L Q_NMOS_GSD Q2
 U 1 1 563EFEF0
@@ -473,22 +244,6 @@ F 6 "Neutrik" H 8050 1600 60  0001 C CNN "MfrId"
 F 7 "NC3FAAH2-0" H 8050 1600 60  0001 C CNN "MfgId"
 F 8 "Mouser" H 8050 1600 60  0001 C CNN "Vend1"
 	1    8050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L NC7WZ14 U4
-U 2 1 563F235B
-P 9600 2000
-F 0 "U4" H 9750 2100 40  0000 C CNN
-F 1 "NC7WZ14" H 9800 1900 40  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SC-70-6" H 9600 2000 60  0001 C CNN
-F 3 "http://www.fairchildsemi.com/datasheets/NC/NC7WZ14.pdf" H 9600 2000 60  0001 C CNN
-F 4 "0.07631" H 9600 2000 60  0001 C CNN "RefPrice1k"
-F 5 "Fairchild" H 9600 2000 60  0001 C CNN "MfrId"
-F 6 "NC7WZ14P6X" H 9600 2000 60  0001 C CNN "MfgId"
-F 7 "Digikey" H 9600 2000 60  0001 C CNN "Vend1"
-F 8 "NC7WZ14P6XCT-ND" H 9600 2000 60  0001 C CNN "Vend1Id"
-	2    9600 2000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -558,17 +313,17 @@ $EndComp
 $Comp
 L R R13
 U 1 1 563F3452
-P 3650 2350
-F 0 "R13" V 3730 2350 50  0000 C CNN
-F 1 "150" V 3650 2350 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3580 2350 30  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 3650 2350 30  0001 C CNN
-F 4 "0.0032" V 3650 2350 60  0001 C CNN "RefPrice1k"
-F 5 "RMCF0805JT150RCT-ND" V 3650 2350 60  0001 C CNN "Vend1Id"
-F 6 "Digikey" V 3650 2350 60  0001 C CNN "Vend1"
-F 7 "Stackpole" V 3650 2350 60  0001 C CNN "MfrId"
-F 8 "RMCF0805JT150R" V 3650 2350 60  0001 C CNN "MfgId"
-	1    3650 2350
+P 4950 2350
+F 0 "R13" V 5030 2350 50  0000 C CNN
+F 1 "240" V 4950 2350 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4880 2350 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4950 2350 30  0001 C CNN
+F 4 "0.0032" V 4950 2350 60  0001 C CNN "RefPrice1k"
+F 5 "RMCF0805JT240RCT-ND" V 4950 2350 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 4950 2350 60  0001 C CNN "Vend1"
+F 7 "Stackpole" V 4950 2350 60  0001 C CNN "MfrId"
+F 8 "RMCF0805JT240R" V 4950 2350 60  0001 C CNN "MfgId"
+	1    4950 2350
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -606,50 +361,18 @@ $EndComp
 $Comp
 L C C20
 U 1 1 56431ABC
-P 2850 1450
-F 0 "C20" H 2900 1550 50  0000 L CNN
-F 1 "10uF " H 2900 1350 50  0000 L CNN
-F 2 "Capacitors_SMD:C_1206" H 2888 1300 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 2850 1450 60  0001 C CNN
-F 4 "GRM31CR61H106MA12L" H 2900 1250 39  0001 L BNN "MfgId"
-F 5 "Murata" H 2850 1450 60  0001 C CNN "MfrId"
-F 6 "Digikey" H 2850 1450 60  0001 C CNN "Vend1"
-F 7 "490-10756-2-ND" H 2850 1450 60  0001 C CNN "Vend1Id"
-F 8 "0.07429" H 2850 1450 60  0001 C CNN "RefPrice1k"
-	1    2850 1450
+P 4150 1450
+F 0 "C20" H 4200 1550 50  0000 L CNN
+F 1 "10uF " H 4200 1350 50  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 4188 1300 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4150 1450 60  0001 C CNN
+F 4 "GRM31CR61H106MA12L" H 4200 1250 39  0001 L BNN "MfgId"
+F 5 "Murata" H 4150 1450 60  0001 C CNN "MfrId"
+F 6 "Digikey" H 4150 1450 60  0001 C CNN "Vend1"
+F 7 "490-10756-2-ND" H 4150 1450 60  0001 C CNN "Vend1Id"
+F 8 "0.07429" H 4150 1450 60  0001 C CNN "RefPrice1k"
+	1    4150 1450
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C18
-U 1 1 56431ACB
-P 2500 4450
-F 0 "C18" V 2450 4250 50  0000 L CNN
-F 1 "0.1uF" V 2450 4500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2538 4300 30  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 2500 4450 60  0001 C CNN
-F 4 "0.01880" V 2500 4450 60  0001 C CNN "RefPrice1k"
-F 5 "490-9672-2-ND" V 2500 4450 60  0001 C CNN "Vend1Id"
-F 6 "Digikey" V 2500 4450 60  0001 C CNN "Vend1"
-F 7 "Murata" V 2500 4450 60  0001 C CNN "MfrId"
-F 8 "GRM21BR71H104MA01L" V 2500 4450 60  0001 C CNN "MfgId"
-	1    2500 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L C C19
-U 1 1 56432CCC
-P 2500 4900
-F 0 "C19" V 2450 4700 50  0000 L CNN
-F 1 "0.1uF" V 2450 4950 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 2538 4750 30  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 2500 4900 60  0001 C CNN
-F 4 "0.01880" V 2500 4900 60  0001 C CNN "RefPrice1k"
-F 5 "490-9672-2-ND" V 2500 4900 60  0001 C CNN "Vend1Id"
-F 6 "Digikey" V 2500 4900 60  0001 C CNN "Vend1"
-F 7 "Murata" V 2500 4900 60  0001 C CNN "MfrId"
-F 8 "GRM21BR71H104MA01L" V 2500 4900 60  0001 C CNN "MfgId"
-	1    2500 4900
-	0    1    1    0   
 $EndComp
 $Comp
 L C C28
@@ -686,25 +409,19 @@ $EndComp
 $Comp
 L C C21
 U 1 1 56433305
-P 3100 1450
-F 0 "C21" H 2950 1350 50  0000 L CNN
-F 1 "0.1uF" H 2850 1550 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3138 1300 30  0001 C CNN
-F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 3100 1450 60  0001 C CNN
-F 4 "0.01880" V 3100 1450 60  0001 C CNN "RefPrice1k"
-F 5 "490-9672-2-ND" V 3100 1450 60  0001 C CNN "Vend1Id"
-F 6 "Digikey" V 3100 1450 60  0001 C CNN "Vend1"
-F 7 "Murata" V 3100 1450 60  0001 C CNN "MfrId"
-F 8 "GRM21BR71H104MA01L" V 3100 1450 60  0001 C CNN "MfgId"
-	1    3100 1450
+P 4400 1450
+F 0 "C21" H 4250 1350 50  0000 L CNN
+F 1 "0.1uF" H 4150 1550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4438 1300 30  0001 C CNN
+F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 4400 1450 60  0001 C CNN
+F 4 "0.01880" V 4400 1450 60  0001 C CNN "RefPrice1k"
+F 5 "490-9672-2-ND" V 4400 1450 60  0001 C CNN "Vend1Id"
+F 6 "Digikey" V 4400 1450 60  0001 C CNN "Vend1"
+F 7 "Murata" V 4400 1450 60  0001 C CNN "MfrId"
+F 8 "GRM21BR71H104MA01L" V 4400 1450 60  0001 C CNN "MfgId"
+	1    4400 1450
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	3100 1600 3100 2700
-Connection ~ 3100 2700
-Wire Wire Line
-	3100 1300 3100 1100
-Connection ~ 3100 1100
 $Comp
 L C C26
 U 1 1 56433BD3
@@ -721,12 +438,6 @@ F 8 "GRM21BR71H104MA01L" V 6550 4950 60  0001 C CNN "MfgId"
 	1    6550 4950
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6550 5100 6550 6100
-Connection ~ 6550 6100
-Wire Wire Line
-	6550 3800 6550 4800
-Connection ~ 6550 4450
 $Comp
 L C C24
 U 1 1 56433E6B
@@ -770,8 +481,6 @@ F 3 "" H 4350 6650 60  0000 C CNN
 	1    4350 6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 6650 4350 6800
 $Comp
 L GND #PWR021
 U 1 1 56434123
@@ -783,48 +492,20 @@ F 3 "" H 4350 7250 60  0000 C CNN
 	1    4350 7250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4350 7100 4350 7250
-Wire Wire Line
-	4350 7200 4750 7200
-Wire Wire Line
-	4750 7200 4750 7100
-Connection ~ 4350 7200
-Wire Wire Line
-	4350 6700 4750 6700
-Wire Wire Line
-	4750 6700 4750 6800
-Connection ~ 4350 6700
-$Comp
-L C C23
-U 1 1 56434C5E
-P 3900 2000
-F 0 "C23" V 3950 2050 50  0000 L CNN
-F 1 "1nF" V 3850 2050 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 3938 1850 30  0001 C CNN
-F 3 "http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM216R71H102KA01-01.pdf" H 3900 2000 60  0001 C CNN
-F 4 "0.0156" H 3900 2000 60  0001 C CNN "RefPrice1k"
-F 5 "Digikey" H 3900 2000 60  0001 C CNN "Vend1"
-F 6 "490-9741-1-ND" H 3900 2000 60  0001 C CNN "Vend1Id"
-F 7 "Murata" H 3900 2000 60  0001 C CNN "MfrId"
-F 8 "GRM216R71H102KA01D" H 3900 2000 60  0001 C CNN "MfgId"
-	1    3900 2000
-	0    1    -1   0   
-$EndComp
 $Comp
 L D_Schottky_x2_KCom_AAK D2
 U 1 1 564357BA
-P 2500 1100
-F 0 "D2" V 2400 950 50  0000 C CNN
-F 1 "BAT54 2x common cathode" H 2500 1200 50  0001 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23" H 2500 1100 60  0001 C CNN
-F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 2500 1100 60  0001 C CNN
-F 4 "Diodes Inc" H 2500 1250 39  0001 C CNN "MfrId"
-F 5 "BAT54C-7-F" H 2500 1200 39  0000 C CNN "MfgId"
-F 6 "BAT54C-FDICT-ND" V 2500 1100 60  0001 C CNN "Vend1Id"
-F 7 ".03955" V 2500 1100 60  0001 C CNN "RefPrice1k"
-F 8 "Digikey" V 2500 1100 60  0001 C CNN "Vend1"
-	1    2500 1100
+P 3800 1100
+F 0 "D2" V 3700 950 50  0000 C CNN
+F 1 "BAT54 2x common cathode" H 3800 1200 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3800 1100 60  0001 C CNN
+F 3 "http://www.diodes.com/_files/datasheets/ds11005.pdf" H 3800 1100 60  0001 C CNN
+F 4 "Diodes Inc" H 3800 1250 39  0001 C CNN "MfrId"
+F 5 "BAT54C-7-F" H 3800 1200 39  0000 C CNN "MfgId"
+F 6 "BAT54C-FDICT-ND" V 3800 1100 60  0001 C CNN "Vend1Id"
+F 7 ".03955" V 3800 1100 60  0001 C CNN "RefPrice1k"
+F 8 "Digikey" V 3800 1100 60  0001 C CNN "Vend1"
+	1    3800 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -845,9 +526,6 @@ F 8 "0.30944" H 8100 6100 60  0001 C CNN "RefPrice1k"
 $EndComp
 Text Notes 8200 6350 0    60   ~ 0
 "Y" safety rated HV cap\nto suppress conducted EMI
-Connection ~ 6850 6100
-Wire Wire Line
-	8900 6100 8250 6100
 $Comp
 L D_Schottky_x2_ACom_KKA D4
 U 1 1 564DC90B
@@ -1799,7 +1477,7 @@ A2 A4 69 3A 2D 7E 4C FF AB 78 3E 2F 42 71 22 4D 57 00 BC C2 CC AF C4 33 FA FF 32
 9E 48 66 C8 87 00 7E 03 E0 5D 22 7A 3B 49 92 37 51 3F A7 8F A3 6E 10 BF 6E 77 82 4D 4C BA 2B DE 
 FB 59 00 E6 A5 69 3A 37 9E CF 73 BC F7 37 E3 33 5D 9E A8 3E 7F 80 FA F7 F6 BB 44 F4 6E D4 E7 77 
 A2 1E 1F 27 A2 E3 16 70 32 E9 54 FE 3F E7 AF 00 CA 1C A3 36 0A 00 00 00 00 49 45 4E 44 AE 42 60 
-82 00 
+82 70 
 EndData
 $EndBitmap
 Text Notes 6700 7750 0    79   ~ 0
@@ -3057,9 +2735,267 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 00 
+AE 42 60 82 A3 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0
 A
+Wire Wire Line
+	6400 1600 6650 1600
+Wire Wire Line
+	6650 1600 7650 1600
+Wire Wire Line
+	8450 1600 8550 1600
+Wire Wire Line
+	8050 2150 8050 2000
+Wire Wire Line
+	5350 1100 5350 1600
+Wire Wire Line
+	5350 1600 5350 1800
+Wire Wire Line
+	5350 1600 5500 1600
+Wire Wire Line
+	5350 1800 5500 1800
+Connection ~ 5350 1600
+Wire Wire Line
+	6400 1400 6450 1400
+Wire Wire Line
+	6450 1400 6450 1100
+Wire Wire Line
+	7450 2150 7600 2150
+Wire Wire Line
+	7600 2150 8050 2150
+Wire Wire Line
+	7600 2150 7600 1800
+Wire Wire Line
+	7600 1800 6400 1800
+Wire Wire Line
+	8550 2700 8550 2150
+Wire Wire Line
+	8550 2150 8550 1600
+Wire Wire Line
+	6450 2700 6450 2000
+Wire Wire Line
+	6450 2000 6400 2000
+Connection ~ 7600 2150
+Wire Wire Line
+	6650 1600 6650 2150
+Wire Wire Line
+	6650 2150 6850 2150
+Connection ~ 6650 1600
+Wire Wire Line
+	7150 2700 7150 2350
+Connection ~ 7150 2700
+Connection ~ 6450 2700
+Wire Wire Line
+	4950 2000 4950 2200
+Connection ~ 4950 2000
+Wire Wire Line
+	4950 2700 4950 2500
+Wire Wire Line
+	4650 2000 4650 2200
+Wire Wire Line
+	4650 2700 4650 2500
+Connection ~ 4950 2700
+Wire Wire Line
+	3800 2700 3800 2300
+Connection ~ 4650 2700
+Connection ~ 4650 2000
+Wire Wire Line
+	4150 1300 4150 1100
+Wire Wire Line
+	4150 1600 4150 2700
+Connection ~ 4150 2700
+Connection ~ 4150 1100
+Wire Wire Line
+	8750 4650 9650 4650
+Wire Wire Line
+	3800 1700 3150 1700
+Wire Wire Line
+	3800 1400 3150 1400
+Wire Wire Line
+	3800 800  3150 800 
+Wire Wire Line
+	8750 4250 9650 4250
+Wire Wire Line
+	8750 5250 9650 5250
+Wire Wire Line
+	8750 4450 8900 4450
+Wire Wire Line
+	8750 5650 8900 5650
+Wire Wire Line
+	8900 5650 9650 5650
+Connection ~ 8900 5650
+Wire Wire Line
+	8900 4450 8900 5650
+Wire Wire Line
+	8900 5650 8900 6100
+Wire Wire Line
+	5550 5650 7000 5650
+Wire Wire Line
+	6050 6100 6050 5100
+Wire Wire Line
+	2650 6100 3900 6100
+Wire Wire Line
+	3900 6100 4850 6100
+Wire Wire Line
+	4850 6100 5650 6100
+Wire Wire Line
+	5650 6100 6050 6100
+Wire Wire Line
+	6050 6100 6550 6100
+Wire Wire Line
+	6550 6100 6850 6100
+Wire Wire Line
+	6850 6100 7950 6100
+Wire Wire Line
+	5650 4650 5650 6100
+Connection ~ 5650 6100
+Wire Wire Line
+	6050 4700 6050 4650
+Wire Wire Line
+	6050 4650 7450 4650
+Wire Wire Line
+	6850 6100 6850 5100
+Connection ~ 6050 6100
+Wire Wire Line
+	6850 4450 6850 4800
+Wire Wire Line
+	6550 4450 6850 4450
+Wire Wire Line
+	6850 4450 7450 4450
+Wire Wire Line
+	7450 4250 5650 4250
+Wire Wire Line
+	2650 3800 2900 3800
+Wire Wire Line
+	2900 3800 3200 3800
+Wire Wire Line
+	3200 3800 3900 3800
+Wire Wire Line
+	3900 3800 4850 3800
+Wire Wire Line
+	4850 3800 6550 3800
+Connection ~ 6850 4450
+Wire Wire Line
+	7300 5650 7450 5650
+Wire Wire Line
+	4850 6100 4850 5450
+Wire Wire Line
+	4850 3800 4850 5050
+Wire Wire Line
+	5350 4450 4400 4450
+Wire Wire Line
+	4600 4900 5750 4900
+Connection ~ 4850 3800
+Connection ~ 4850 6100
+Wire Wire Line
+	5350 5250 7450 5250
+Wire Wire Line
+	3200 3800 3200 3900
+Wire Wire Line
+	2900 3800 2900 3900
+Connection ~ 3200 3800
+Wire Wire Line
+	2650 4450 2900 4450
+Wire Wire Line
+	2900 4450 3500 4450
+Wire Wire Line
+	2900 4200 2900 4450
+Connection ~ 2900 4450
+Wire Wire Line
+	3200 4200 3200 4900
+Wire Wire Line
+	2650 4900 3200 4900
+Wire Wire Line
+	3200 4900 3700 4900
+Connection ~ 3200 4900
+Wire Wire Line
+	3900 4250 3900 3800
+Connection ~ 3900 3800
+Wire Wire Line
+	3900 6100 3900 4650
+Connection ~ 2900 3800
+Connection ~ 3900 6100
+Wire Wire Line
+	2200 4450 2650 4450
+Wire Wire Line
+	2200 4900 2650 4900
+Wire Wire Line
+	2200 5250 4450 5250
+Wire Wire Line
+	2200 5650 4650 5650
+Wire Wire Line
+	2650 6250 2650 6100
+Wire Wire Line
+	2650 3800 2650 3550
+Wire Wire Line
+	8250 2000 8250 2150
+Wire Wire Line
+	8250 2150 8550 2150
+Connection ~ 8550 2150
+Wire Wire Line
+	4400 2700 4400 1600
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 1100 4400 1300
+Connection ~ 4400 1100
+Wire Wire Line
+	6550 5100 6550 6100
+Connection ~ 6550 6100
+Wire Wire Line
+	6550 3800 6550 4450
+Wire Wire Line
+	6550 4450 6550 4800
+Connection ~ 6550 4450
+Wire Wire Line
+	4350 6650 4350 6700
+Wire Wire Line
+	4350 6700 4350 6800
+Wire Wire Line
+	4350 7100 4350 7200
+Wire Wire Line
+	4350 7200 4350 7250
+Wire Wire Line
+	4350 7200 4750 7200
+Wire Wire Line
+	4750 7200 4750 7100
+Connection ~ 4350 7200
+Wire Wire Line
+	4350 6700 4750 6700
+Wire Wire Line
+	4750 6700 4750 6800
+Connection ~ 4350 6700
+Connection ~ 6850 6100
+Wire Wire Line
+	8900 6100 8250 6100
+Wire Wire Line
+	6450 1100 5350 1100
+Wire Wire Line
+	5350 1100 4400 1100
+Wire Wire Line
+	4400 1100 4150 1100
+Wire Wire Line
+	4150 1100 4000 1100
+Connection ~ 5350 1100
+Wire Wire Line
+	4000 2000 4650 2000
+Wire Wire Line
+	4650 2000 4950 2000
+Wire Wire Line
+	4950 2000 5500 2000
+Wire Wire Line
+	3800 2700 4150 2700
+Wire Wire Line
+	4150 2700 4400 2700
+Wire Wire Line
+	4400 2700 4650 2700
+Wire Wire Line
+	4650 2700 4950 2700
+Wire Wire Line
+	4950 2700 6450 2700
+Wire Wire Line
+	6450 2700 7150 2700
+Wire Wire Line
+	7150 2700 8550 2700
 $EndSCHEMATC
