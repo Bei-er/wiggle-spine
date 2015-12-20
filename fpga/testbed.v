@@ -67,8 +67,8 @@ module dmx_modulator(
 	output DMX_TX2
 	);
 
-	parameter PULSE_WIDTH = 15;
-	parameter PERIOD = 20;
+	parameter PULSE_WIDTH = 5;
+	parameter PERIOD = 35;
 
 	reg [5:0] power_phase = 0;
 	reg power_polarity = 0;
@@ -84,16 +84,16 @@ module dmx_modulator(
 		end
 	end
 
-	assign DMX_GATE1 = !(power_modulation && power_polarity);
-	assign DMX_GATE2 = !(power_modulation && !power_polarity);
+	assign DMX_GATE1 = (power_modulation && power_polarity);
+	assign DMX_GATE2 = (power_modulation && !power_polarity);
 
 	reg divider = 0;
 	always @(posedge CLK12)
 		divider <= ~divider;
 	wire data_modulation = divider[0];  // 6 MHz
 
-	assign DMX_TX1 = !(data && data_modulation);
-	assign DMX_TX2 = !(data && !data_modulation);
+	assign DMX_TX1 = ~(data && data_modulation);
+	assign DMX_TX2 = ~(data && ~data_modulation);
 endmodule
 
 module dmx_packetizer(

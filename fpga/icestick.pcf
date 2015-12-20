@@ -8,7 +8,7 @@ set_io RS232_RX 9
 set_io DMX_TX1 87
 set_io DMX_TX2 88
 set_io DMX_GATE1 90
-set_io DMX_GATE2 91
+set_io DMX_GATE2 78   # Zapped pin 91 on my prototype...
 
 set_io RED_N 79
 set_io GREEN_N 80
