@@ -227,9 +227,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 4300 4150 4300
 Wire Wire Line
-	4150 4300 4150 4050
-Connection ~ 4150 4050
-Wire Wire Line
 	6250 3800 6500 3800
 Wire Wire Line
 	6500 3700 6500 4450
@@ -2616,4 +2613,7 @@ Text Notes 9900 7900 0    102  ~ 0
 A
 Text Notes 3750 5100 0    60   ~ 0
 High efficiency DC-DC converter, 3.3V at 3A
+Wire Wire Line
+	4150 4300 4150 3800
+Connection ~ 4150 3800
 $EndSCHEMATC

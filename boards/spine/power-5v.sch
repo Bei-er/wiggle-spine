@@ -402,9 +402,6 @@ Wire Wire Line
 	5600 3550 5600 4750
 Wire Wire Line
 	5350 3800 5600 3800
-Connection ~ 3100 4050
-Wire Wire Line
-	3100 4300 3100 4050
 Wire Wire Line
 	3200 4300 3100 4300
 Wire Wire Line
@@ -2643,4 +2640,7 @@ Text Notes 9900 7900 0    102  ~ 0
 A
 Text Notes 2700 5650 0    60   ~ 0
 High efficiency DC-DC converter,\n5V at 3A from 5-24V DC.\n\nThis 5V rail is shared by the USB output (up to 2A),\nthe modules (100mA each), and all FPGA and USB\ncontroller power rails.
+Wire Wire Line
+	3100 4300 3100 3800
+Connection ~ 3100 3800
 $EndSCHEMATC
