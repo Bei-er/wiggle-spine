@@ -67,8 +67,8 @@ F 2 "TOSLINK:Everlight-PLT133-T6A" H 5900 4000 60  0001 C CNN
 F 3 "http://www.everlight.com/file/ProductFile/201407061806576799.pdf" H 5900 4000 60  0001 C CNN
 F 4 "Digikey" H 5900 3100 60  0001 C CNN "Vend1"
 F 5 "1080-1428-ND" H 5900 3100 60  0001 C CNN "Vend1Id"
-F 6 "Everlight" H 5900 3100 60  0001 C CNN "MfrId"
-F 7 "PLT133/T" H 5900 3100 60  0001 C CNN "MfgId"
+F 6 "Everlight" H 5900 3100 60  0001 C CNN "Mfg1"
+F 7 "PLT133/T" H 5900 3100 60  0001 C CNN "Mfg1Id"
 F 8 "0.37125" H 5900 3100 60  0001 C CNN "RefPrice1k"
 	1    5900 3100
 	1    0    0    -1  
@@ -86,8 +86,8 @@ F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 475
 F 4 "0.01880" V 4750 3100 60  0001 C CNN "RefPrice1k"
 F 5 "490-9672-2-ND" V 4750 3100 60  0001 C CNN "Vend1Id"
 F 6 "Digikey" V 4750 3100 60  0001 C CNN "Vend1"
-F 7 "Murata" V 4750 3100 60  0001 C CNN "MfrId"
-F 8 "GRM21BR71H104MA01L" V 4750 3100 60  0001 C CNN "MfgId"
+F 7 "Murata" V 4750 3100 60  0001 C CNN "Mfg1"
+F 8 "GRM21BR71H104MA01L" V 4750 3100 60  0001 C CNN "Mfg1Id"
 	1    4750 3100
 	-1   0    0    1   
 $EndComp
@@ -134,8 +134,8 @@ F 3 "http://www.everlight.com/file/ProductFile/PLR135-T10.pdf" H 4800 6000 60  0
 F 4 "Digikey" H 4800 5100 60  0001 C CNN "Vend1"
 F 5 "1080-1433-ND" H 4800 5100 60  0001 C CNN "Vend1Id"
 F 6 "0.73054" H 4800 5100 60  0001 C CNN "RefPrice1k"
-F 7 "Everlight" H 4800 5100 60  0001 C CNN "MfrId"
-F 8 "PLR135/T10" H 4800 5100 60  0001 C CNN "MfgId"
+F 7 "Everlight" H 4800 5100 60  0001 C CNN "Mfg1"
+F 8 "PLR135/T10" H 4800 5100 60  0001 C CNN "Mfg1Id"
 	1    4800 5100
 	1    0    0    -1  
 $EndComp
@@ -161,8 +161,8 @@ F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 605
 F 4 "0.01880" V 6050 5100 60  0001 C CNN "RefPrice1k"
 F 5 "490-9672-2-ND" V 6050 5100 60  0001 C CNN "Vend1Id"
 F 6 "Digikey" V 6050 5100 60  0001 C CNN "Vend1"
-F 7 "Murata" V 6050 5100 60  0001 C CNN "MfrId"
-F 8 "GRM21BR71H104MA01L" V 6050 5100 60  0001 C CNN "MfgId"
+F 7 "Murata" V 6050 5100 60  0001 C CNN "Mfg1"
+F 8 "GRM21BR71H104MA01L" V 6050 5100 60  0001 C CNN "Mfg1Id"
 	1    6050 5100
 	-1   0    0    1   
 $EndComp
@@ -197,8 +197,8 @@ F 1 "Ferrite bead" H 6450 4450 39  0001 C BNN
 F 2 "Resistors_SMD:R_0805" H 6050 4550 50  0001 C CNN
 F 3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf" H 6075 4400 60  0001 C CNN
 F 4 "0.02383" H 6050 4400 60  0001 C CNN "RefPrice1k"
-F 5 "Samsung" H 6050 4400 60  0001 C CNN "MfrId"
-F 6 "CIS21P300NE" H 6050 4400 60  0001 C CNN "MfgId"
+F 5 "Samsung" H 6050 4400 60  0001 C CNN "Mfg1"
+F 6 "CIS21P300NE" H 6050 4400 60  0001 C CNN "Mfg1Id"
 F 7 "Digikey" H 6050 4400 60  0001 C CNN "Vend1"
 F 8 "1276-6370-1-ND" H 6050 4400 60  0001 C CNN "Vend1Id"
 	1    6050 4400
@@ -212,8 +212,8 @@ F 0 "C83" H 6500 5200 50  0000 L CNN
 F 1 "1uF " H 6500 5000 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6488 4950 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6450 5100 60  0001 C CNN
-F 4 "GRM219R61H105KA73D" H 6500 4900 39  0001 L BNN "MfgId"
-F 5 "Murata" H 6450 5100 60  0001 C CNN "MfrId"
+F 4 "GRM219R61H105KA73D" H 6500 4900 39  0001 L BNN "Mfg1Id"
+F 5 "Murata" H 6450 5100 60  0001 C CNN "Mfg1"
 F 6 "Digikey" H 6450 5100 60  0001 C CNN "Vend1"
 F 7 "490-10743-2-ND" H 6450 5100 60  0001 C CNN "Vend1Id"
 F 8 "0.03980" H 6450 5100 60  0001 C CNN "RefPrice1k"

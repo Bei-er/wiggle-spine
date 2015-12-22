@@ -61,8 +61,8 @@ F 0 "MOD1" H 2650 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 2650 3050 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 2650 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 2650 1850 60  0001 C CNN
-F 4 "Centronic" H 2650 3050 60  0001 C CNN "MfrId"
-F 5 "230-20" H 2650 3050 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 2650 3050 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 2650 3050 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 2650 3050 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 2650 3050 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 2650 3050 60  0001 C CNN "RefPrice1k"
@@ -1115,8 +1115,8 @@ F 0 "MOD2" H 4550 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 4550 3050 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 4550 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 4550 1850 60  0001 C CNN
-F 4 "Centronic" H 4550 3050 60  0001 C CNN "MfrId"
-F 5 "230-20" H 4550 3050 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 4550 3050 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 4550 3050 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 4550 3050 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 4550 3050 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 4550 3050 60  0001 C CNN "RefPrice1k"
@@ -1131,8 +1131,8 @@ F 0 "MOD3" H 6450 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 6450 3050 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 6450 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 6450 1850 60  0001 C CNN
-F 4 "Centronic" H 6450 3050 60  0001 C CNN "MfrId"
-F 5 "230-20" H 6450 3050 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 6450 3050 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 6450 3050 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 6450 3050 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 6450 3050 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 6450 3050 60  0001 C CNN "RefPrice1k"
@@ -1147,8 +1147,8 @@ F 0 "MOD4" H 8350 3600 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 8350 3050 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 8350 1850 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 8350 1850 60  0001 C CNN
-F 4 "Centronic" H 8350 3050 60  0001 C CNN "MfrId"
-F 5 "230-20" H 8350 3050 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 8350 3050 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 8350 3050 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 8350 3050 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 8350 3050 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 8350 3050 60  0001 C CNN "RefPrice1k"
@@ -1163,8 +1163,8 @@ F 0 "MOD5" H 3600 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 3600 4600 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 3600 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 3600 3400 60  0001 C CNN
-F 4 "Centronic" H 3600 4600 60  0001 C CNN "MfrId"
-F 5 "230-20" H 3600 4600 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 3600 4600 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 3600 4600 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 3600 4600 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 3600 4600 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 3600 4600 60  0001 C CNN "RefPrice1k"
@@ -1179,8 +1179,8 @@ F 0 "MOD6" H 5500 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 5500 4600 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 5500 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 5500 3400 60  0001 C CNN
-F 4 "Centronic" H 5500 4600 60  0001 C CNN "MfrId"
-F 5 "230-20" H 5500 4600 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 5500 4600 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 5500 4600 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 5500 4600 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 5500 4600 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 5500 4600 60  0001 C CNN "RefPrice1k"
@@ -1195,8 +1195,8 @@ F 0 "MOD7" H 7400 5150 50  0000 C CNN
 F 1 "2.54mm 2x10 right angle female header" V 7400 4600 50  0001 C CNN
 F 2 "Socket_Strips:Socket_Strip_Angled_2x10_Mirror" H 7400 3400 60  0001 C CNN
 F 3 "http://www.centronic.url.tw/pf/p29.pdf" H 7400 3400 60  0001 C CNN
-F 4 "Centronic" H 7400 4600 60  0001 C CNN "MfrId"
-F 5 "230-20" H 7400 4600 60  0001 C CNN "MfgId"
+F 4 "Centronic" H 7400 4600 60  0001 C CNN "Mfg1"
+F 5 "230-20" H 7400 4600 60  0001 C CNN "Mfg1Id"
 F 6 "eBay" H 7400 4600 60  0001 C CNN "Vend1"
 F 7 "http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036" H 7400 4600 60  0001 C CNN "Vend1Id"
 F 8 "0.275" H 7400 4600 60  0001 C CNN "RefPrice1k"
@@ -3396,7 +3396,7 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 00 
+AE 42 60 82 44 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0
