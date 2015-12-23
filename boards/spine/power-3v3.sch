@@ -54,10 +54,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L C C57
+L C C56
 U 1 1 564CF3B6
 P 4250 4300
-F 0 "C57" H 4300 4400 50  0000 L CNN
+F 0 "C56" H 4300 4400 50  0000 L CNN
 F 1 "1uF " H 4300 4200 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4288 4150 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4250 4300 60  0001 C CNN
@@ -86,10 +86,10 @@ F 8 "0.37752" H 5150 3550 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C58
+L C C57
 U 1 1 564CF3B8
 P 6200 3750
-F 0 "C58" V 6150 3650 50  0000 R CNN
+F 0 "C57" V 6150 3650 50  0000 R CNN
 F 1 "0.1uF" V 6150 3800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6238 3600 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6200 3750 60  0001 C CNN
@@ -134,10 +134,10 @@ F 8 "RMCF0805JT150R" V 6600 4550 60  0001 C CNN "Mfg1Id"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C59
+L C C58
 U 1 1 564CF3BB
 P 6600 4850
-F 0 "C59" H 6450 4750 50  0000 L CNN
+F 0 "C58" H 6450 4750 50  0000 L CNN
 F 1 "100pF" H 6350 4950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6638 4700 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6600 4850 60  0001 C CNN
@@ -1214,7 +1214,7 @@ A2 A4 69 3A 2D 7E 4C FF AB 78 3E 2F 42 71 22 4D 57 00 BC C2 CC AF C4 33 FA FF 32
 9E 48 66 C8 87 00 7E 03 E0 5D 22 7A 3B 49 92 37 51 3F A7 8F A3 6E 10 BF 6E 77 82 4D 4C BA 2B DE 
 FB 59 00 E6 A5 69 3A 37 9E CF 73 BC F7 37 E3 33 5D 9E A8 3E 7F 80 FA F7 F6 BB 44 F4 6E D4 E7 77 
 A2 1E 1F 27 A2 E3 16 70 32 E9 54 FE 3F E7 AF 00 CA 1C A3 36 0A 00 00 00 00 49 45 4E 44 AE 42 60 
-82 00 
+82 70 
 EndData
 $EndBitmap
 Text Notes 6700 7750 0    79   ~ 0
@@ -3414,7 +3414,7 @@ A2 A4 69 3A 2D 7E 4C FF AB 78 3E 2F 42 71 22 4D 57 00 BC C2 CC AF C4 33 FA FF 32
 9E 48 66 C8 87 00 7E 03 E0 5D 22 7A 3B 49 92 37 51 3F A7 8F A3 6E 10 BF 6E 77 82 4D 4C BA 2B DE 
 FB 59 00 E6 A5 69 3A 37 9E CF 73 BC F7 37 E3 33 5D 9E A8 3E 7F 80 FA F7 F6 BB 44 F4 6E D4 E7 77 
 A2 1E 1F 27 A2 E3 16 70 32 E9 54 FE 3F E7 AF 00 CA 1C A3 36 0A 00 00 00 00 49 45 4E 44 AE 42 60 
-82 70 
+82 00 
 EndData
 $EndBitmap
 Text Notes 6700 7750 0    79   ~ 0
@@ -4672,7 +4672,7 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 4D 
+AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0
@@ -4683,10 +4683,10 @@ Wire Wire Line
 Wire Wire Line
 	3050 3750 4700 3750
 $Comp
-L CP1 C54
+L CP1 C53
 U 1 1 567A52B7
 P 3050 4050
-F 0 "C54" H 3075 4150 50  0000 L CNN
+F 0 "C53" H 3075 4150 50  0000 L CNN
 F 1 "22uF" H 3075 3950 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 3050 4050 60  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-cd.pdf" H 3050 4050 60  0001 C CNN
@@ -4699,10 +4699,10 @@ F 8 "0.10868" H 3050 4050 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C56
+L C C55
 U 1 1 567A52B8
 P 3750 4050
-F 0 "C56" H 3800 4150 50  0000 L CNN
+F 0 "C55" H 3800 4150 50  0000 L CNN
 F 1 "10uF " H 3800 3950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 3788 3900 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3750 4050 60  0001 C CNN
@@ -4728,10 +4728,10 @@ $EndComp
 Wire Wire Line
 	3750 4200 3750 4450
 $Comp
-L C C55
+L C C54
 U 1 1 567A52BD
 P 3400 4050
-F 0 "C55" H 3450 4150 50  0000 L CNN
+F 0 "C54" H 3450 4150 50  0000 L CNN
 F 1 "10uF " H 3450 3950 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 3438 3900 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 3400 4050 60  0001 C CNN
@@ -4802,10 +4802,10 @@ $EndComp
 Wire Wire Line
 	8250 4750 8250 4900
 $Comp
-L CP1 C60
+L CP1 C59
 U 1 1 567A6406
 P 7050 3350
-F 0 "C60" H 7075 3450 50  0000 L CNN
+F 0 "C59" H 7075 3450 50  0000 L CNN
 F 1 "22uF" H 7075 3250 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 7050 3350 60  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-cd.pdf" H 7050 3350 60  0001 C CNN
@@ -4818,10 +4818,10 @@ F 8 "0.10868" H 7050 3350 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP1 C61
+L CP1 C60
 U 1 1 567A6411
 P 7400 3350
-F 0 "C61" H 7425 3450 50  0000 L CNN
+F 0 "C60" H 7425 3450 50  0000 L CNN
 F 1 "22uF" H 7425 3250 50  0000 L CNN
 F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 7400 3350 60  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-cd.pdf" H 7400 3350 60  0001 C CNN
@@ -4834,10 +4834,10 @@ F 8 "0.10868" H 7400 3350 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C62
+L C C61
 U 1 1 567A642E
 P 7750 3350
-F 0 "C62" H 7800 3450 50  0000 L CNN
+F 0 "C61" H 7800 3450 50  0000 L CNN
 F 1 "10uF " H 7800 3250 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 7788 3200 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7750 3350 60  0001 C CNN

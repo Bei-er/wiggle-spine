@@ -72,18 +72,18 @@ $EndComp
 $Comp
 L R R31
 U 1 1 564D3371
-P 4600 4150
-F 0 "R31" V 4680 4150 50  0000 C CNN
-F 1 "100k" V 4600 4150 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4530 4150 30  0001 C CNN
-F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4600 4150 30  0001 C CNN
-F 4 "Digikey" V 4600 4150 60  0001 C CNN "Vend1"
-F 5 "Stackpole" V 4600 4150 60  0001 C CNN "Mfg1"
-F 6 "RMCF0805JT100K" V 4600 4150 60  0001 C CNN "Mfg1Id"
-F 7 "RMCF0805JT100KCT-ND" V 4600 4150 60  0001 C CNN "Vend1Id"
-F 8 "0.00320" V 4600 4150 60  0001 C CNN "RefPrice1k"
-	1    4600 4150
-	0    1    1    0   
+P 4400 4300
+F 0 "R31" V 4480 4300 50  0000 C CNN
+F 1 "100k" V 4400 4300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4330 4300 30  0001 C CNN
+F 3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" H 4400 4300 30  0001 C CNN
+F 4 "Digikey" V 4400 4300 60  0001 C CNN "Vend1"
+F 5 "Stackpole" V 4400 4300 60  0001 C CNN "Mfg1"
+F 6 "RMCF0805JT100K" V 4400 4300 60  0001 C CNN "Mfg1Id"
+F 7 "RMCF0805JT100KCT-ND" V 4400 4300 60  0001 C CNN "Vend1Id"
+F 8 "0.00320" V 4400 4300 60  0001 C CNN "RefPrice1k"
+	1    4400 4300
+	-1   0    0    1   
 $EndComp
 $Comp
 L USB_A CON3
@@ -120,19 +120,19 @@ $EndComp
 $Comp
 L GND #PWR0142
 U 1 1 564D3375
-P 6100 4750
-F 0 "#PWR0142" H 6100 4500 50  0001 C CNN
-F 1 "GND" H 6100 4600 50  0000 C CNN
-F 2 "" H 6100 4750 60  0000 C CNN
-F 3 "" H 6100 4750 60  0000 C CNN
-	1    6100 4750
+P 6100 4850
+F 0 "#PWR0142" H 6100 4600 50  0001 C CNN
+F 1 "GND" H 6100 4700 50  0000 C CNN
+F 2 "" H 6100 4850 60  0000 C CNN
+F 3 "" H 6100 4850 60  0000 C CNN
+	1    6100 4850
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C64
+L C C63
 U 1 1 564D3376
 P 6350 4300
-F 0 "C64" V 6400 4100 50  0000 L CNN
+F 0 "C63" V 6400 4100 50  0000 L CNN
 F 1 "0.1uF" V 6400 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 6388 4150 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 6350 4300 60  0001 C CNN
@@ -177,30 +177,30 @@ F 8 "1276-6370-1-ND" H 7300 4650 60  0001 C CNN "Vend1Id"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C63
+L C C62
 U 1 1 564D3379
-P 5050 4600
-F 0 "C63" H 5100 4700 50  0000 L CNN
-F 1 "1uF " H 5100 4500 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805" H 5088 4450 30  0001 C CNN
-F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 5050 4600 60  0001 C CNN
-F 4 "GRM219R61H105KA73D" H 5100 4400 39  0001 L BNN "Mfg1Id"
-F 5 "Murata" H 5050 4600 60  0001 C CNN "Mfg1"
-F 6 "Digikey" H 5050 4600 60  0001 C CNN "Vend1"
-F 7 "490-10743-2-ND" H 5050 4600 60  0001 C CNN "Vend1Id"
-F 8 "0.03980" H 5050 4600 60  0001 C CNN "RefPrice1k"
-	1    5050 4600
+P 4950 4700
+F 0 "C62" H 5000 4800 50  0000 L CNN
+F 1 "1uF " H 5000 4600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 4988 4550 30  0001 C CNN
+F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4950 4700 60  0001 C CNN
+F 4 "GRM219R61H105KA73D" H 5000 4500 39  0001 L BNN "Mfg1Id"
+F 5 "Murata" H 4950 4700 60  0001 C CNN "Mfg1"
+F 6 "Digikey" H 4950 4700 60  0001 C CNN "Vend1"
+F 7 "490-10743-2-ND" H 4950 4700 60  0001 C CNN "Vend1Id"
+F 8 "0.03980" H 4950 4700 60  0001 C CNN "RefPrice1k"
+	1    4950 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR0143
 U 1 1 564D337A
-P 5050 4750
-F 0 "#PWR0143" H 5050 4500 50  0001 C CNN
-F 1 "GND" H 5050 4600 50  0000 C CNN
-F 2 "" H 5050 4750 60  0000 C CNN
-F 3 "" H 5050 4750 60  0000 C CNN
-	1    5050 4750
+P 4950 4900
+F 0 "#PWR0143" H 4950 4650 50  0001 C CNN
+F 1 "GND" H 4950 4750 50  0000 C CNN
+F 2 "" H 4950 4900 60  0000 C CNN
+F 3 "" H 4950 4900 60  0000 C CNN
+	1    4950 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -219,12 +219,10 @@ F 8 "0.09403" H 6900 4000 60  0001 C CNN "RefPrice1k"
 	1    6900 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 3200 4000 0    60   Input ~ 0
+Text HLabel 3250 4000 0    60   Input ~ 0
 5V_IN
-Text HLabel 4100 4300 0    60   Input ~ 0
+Text HLabel 4000 4600 0    60   Input ~ 0
 ENABLE
-Wire Wire Line
-	4100 4300 5150 4300
 Wire Wire Line
 	7700 4100 7600 4100
 Wire Wire Line
@@ -238,7 +236,7 @@ Wire Wire Line
 Wire Wire Line
 	6050 4300 6100 4300
 Wire Wire Line
-	6100 4200 6100 4750
+	6100 4200 6100 4850
 Wire Wire Line
 	6050 4200 6100 4200
 Connection ~ 6100 4300
@@ -258,12 +256,12 @@ Wire Wire Line
 	6600 4650 6600 4450
 Connection ~ 6600 4650
 Wire Wire Line
-	5050 4000 5050 4450
+	4950 4000 4950 4550
 Wire Wire Line
-	3200 4000 5150 4000
+	3250 4000 5150 4000
 Wire Wire Line
 	7000 4000 7300 4000
-Connection ~ 5050 4000
+Connection ~ 4950 4000
 Wire Wire Line
 	7600 4650 7650 4650
 Wire Wire Line
@@ -271,10 +269,10 @@ Wire Wire Line
 Wire Wire Line
 	6100 4650 7300 4650
 $Comp
-L C C65
+L C C64
 U 1 1 564E8130
 P 7200 4300
-F 0 "C65" V 7250 4100 50  0000 L CNN
+F 0 "C64" V 7250 4100 50  0000 L CNN
 F 1 "0.1uF" V 7250 4400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 7238 4150 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 7200 4300 60  0001 C CNN
@@ -292,7 +290,7 @@ Connection ~ 7200 4000
 Wire Wire Line
 	7200 4450 7200 4650
 Connection ~ 7200 4650
-Text Notes 1950 3850 0    60   ~ 0
+Text Notes 1900 3800 0    60   ~ 0
 Not the main +5V rail; this is intended to draw power\nfrom the DC-DC converter only, not the USB-B input.
 Text Notes 7300 3650 0    60   ~ 0
 USB power output, 5V 2A.\n\nIntended to power a small computer,\nlike the Raspberry Pi 2.\n\nOptional hardware watchdog timer,\nimplemented in the FPGA.
@@ -2489,7 +2487,7 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 4D 
+AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0
@@ -2506,13 +2504,17 @@ F 3 "" H 8100 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 4150 4350 4150
+	4950 4850 4950 4900
 Wire Wire Line
-	4350 4150 4350 4300
-Connection ~ 4350 4300
+	5150 4300 4650 4300
 Wire Wire Line
-	4750 4150 4850 4150
+	4650 4300 4650 4600
 Wire Wire Line
-	4850 4150 4850 4000
-Connection ~ 4850 4000
+	4650 4600 4000 4600
+Wire Wire Line
+	4400 4150 4400 4000
+Connection ~ 4400 4000
+Wire Wire Line
+	4400 4450 4400 4600
+Connection ~ 4400 4600
 $EndSCHEMATC

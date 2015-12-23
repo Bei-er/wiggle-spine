@@ -70,10 +70,10 @@ F 8 "568-5818-1-ND" H 3600 4000 60  0001 C CNN "Vend1Id"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C67
+L C C66
 U 1 1 564D4E85
 P 4600 3500
-F 0 "C67" H 4650 3600 50  0000 L CNN
+F 0 "C66" H 4650 3600 50  0000 L CNN
 F 1 "1uF " H 4650 3400 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4638 3350 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4600 3500 60  0001 C CNN
@@ -102,10 +102,10 @@ F 8 "0.00320" V 3300 3200 60  0001 C CNN "RefPrice1k"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C69
+L C C68
 U 1 1 564D4E88
 P 5900 3350
-F 0 "C69" H 5750 3250 50  0000 L CNN
+F 0 "C68" H 5750 3250 50  0000 L CNN
 F 1 "0.1uF" H 5650 3450 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5938 3200 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 5900 3350 60  0001 C CNN
@@ -148,10 +148,10 @@ $EndComp
 Text Notes 1950 2300 0    60   ~ 0
 When USB power is available, route it to the +5V rail\n(with reverse current protection)\n\nWhen/if external 5V becomes available, switch to it\nsoftly, then draw no power from upstream USB.
 $Comp
-L C C66
+L C C65
 U 1 1 564D0CD8
 P 4150 3500
-F 0 "C66" H 4000 3400 50  0000 L CNN
+F 0 "C65" H 4000 3400 50  0000 L CNN
 F 1 "0.1uF" H 3900 3600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4188 3350 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 4150 3500 60  0001 C CNN
@@ -164,10 +164,10 @@ F 8 "GRM21BR71H104MA01L" V 4150 3500 60  0001 C CNN "Mfg1Id"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C68
+L C C67
 U 1 1 564D1BB4
 P 4600 5700
-F 0 "C68" H 4650 5800 50  0000 L CNN
+F 0 "C67" H 4650 5800 50  0000 L CNN
 F 1 "1uF " H 4650 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4638 5550 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4600 5700 60  0001 C CNN
@@ -180,10 +180,10 @@ F 8 "0.03980" H 4600 5700 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C70
+L C C69
 U 1 1 564D1BBF
 P 5900 5550
-F 0 "C70" H 5750 5450 50  0000 L CNN
+F 0 "C69" H 5750 5450 50  0000 L CNN
 F 1 "0.1uF" H 5650 5650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5938 5400 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 5900 5550 60  0001 C CNN
@@ -257,10 +257,10 @@ F 8 "0.175" H 5150 5150 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C71
+L C C70
 U 1 1 564EBB05
 P 6850 3200
-F 0 "C71" V 6800 3300 50  0000 L CNN
+F 0 "C70" V 6800 3300 50  0000 L CNN
 F 1 "10uF " V 6800 2900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 6888 3050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 6850 3200 60  0001 C CNN
@@ -273,10 +273,10 @@ F 8 "0.07429" H 6850 3200 60  0001 C CNN "RefPrice1k"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C72
+L C C71
 U 1 1 564EBB06
 P 7100 3200
-F 0 "C72" V 7050 3300 50  0000 L CNN
+F 0 "C71" V 7050 3300 50  0000 L CNN
 F 1 "10uF " V 7050 2900 50  0000 L CNN
 F 2 "Capacitors_SMD:C_1206" H 7138 3050 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 7100 3200 60  0001 C CNN
@@ -2492,7 +2492,7 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 A3 
+AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0

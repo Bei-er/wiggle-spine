@@ -297,10 +297,10 @@ F 8 "RMCF0805JT10K0" V 4450 3850 60  0001 C CNN "Mfg1Id"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C79
+L C C78
 U 1 1 564FC57D
 P 3650 5350
-F 0 "C79" H 3650 5250 50  0000 L CNN
+F 0 "C78" H 3650 5250 50  0000 L CNN
 F 1 "0.1uF" H 3650 5200 50  0000 L TNN
 F 2 "Capacitors_SMD:C_0805" H 3688 5200 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 3650 5350 60  0001 C CNN
@@ -313,10 +313,10 @@ F 8 "GRM21BR71H104MA01L" V 3650 5350 60  0001 C CNN "Mfg1Id"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C81
+L C C80
 U 1 1 564FD614
 P 4750 4400
-F 0 "C81" H 4800 4500 50  0000 L CNN
+F 0 "C80" H 4800 4500 50  0000 L CNN
 F 1 "1uF " H 4800 4300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 4788 4250 30  0001 C CNN
 F 3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx" H 4750 4400 60  0001 C CNN
@@ -384,10 +384,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 5500 3650 5700
 $Comp
-L C C80
+L C C79
 U 1 1 564FE623
 P 4050 5350
-F 0 "C80" H 4050 5250 50  0000 L CNN
+F 0 "C79" H 4050 5250 50  0000 L CNN
 F 1 "0.1uF" H 4050 5200 50  0000 L TNN
 F 2 "Capacitors_SMD:C_0805" H 4088 5200 30  0001 C CNN
 F 3 "http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf" H 4050 5350 60  0001 C CNN
