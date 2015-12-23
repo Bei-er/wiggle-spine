@@ -55,6 +55,7 @@ C19,1nF,Capacitors_SMD:C_0805,http://search.murata.co.jp/Ceramy/image/img/A01X/G
 R12,10k,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT10K0CT-ND,0.0032,Stackpole,RMCF0805JT10K0,,
 R11,10k,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT10K0CT-ND,0.0032,Stackpole,RMCF0805JT10K0,,
 Q1,DMN3190LDW,TO_SOT_Packages_SMD:SC-70-6,http://www.diodes.com/_files/datasheets/DMN3190LDW.pdf,Digikey,DMN3190LDW-7DICT-ND,0.09480,Diodes Inc,DMN3190LDW-7,,
+C85,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,,
 MOD1,2.54mm 2x10 right angle female header,Socket_Strips:Socket_Strip_Angled_2x10_Mirror,http://www.centronic.url.tw/pf/p29.pdf,eBay,http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036,0.275,Centronic,230-20,,
 MOD3,2.54mm 2x10 right angle female header,Socket_Strips:Socket_Strip_Angled_2x10_Mirror,http://www.centronic.url.tw/pf/p29.pdf,eBay,http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036,0.275,Centronic,230-20,,
 MOD5,2.54mm 2x10 right angle female header,Socket_Strips:Socket_Strip_Angled_2x10_Mirror,http://www.centronic.url.tw/pf/p29.pdf,eBay,http://www.ebay.com/itm/20pcs-2-54mm-pitch-2x10Pin-Header-Right-Angle-Female-Double-Row-Socket-Connector-/271560108036,0.275,Centronic,230-20,,
