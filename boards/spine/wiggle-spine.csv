@@ -1,4 +1,4 @@
-Reference, Value, Footprint, Datasheet, Vend1, Vend1Id, RefPrice1k, Mfg1, Mfg1Id, Description, Safety Rating
+Reference, Value, Footprint, Datasheet, Vend1, Vend1Id, RefPrice1k, Mfg1, Mfg1Id, Safety Rating, Description
 CON1,USB-B,Connect:USB_B,http://productfinder.pulseeng.com/products/datasheets/E8144-B02022-L.PDF,Digikey,553-2272-ND,0.28,Pulse,E8144-B02022-L,,
 FB2,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf,Digikey,1276-6370-1-ND,0.02383,Samsung,CIS21P300NE,,
 FB1,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf,Digikey,1276-6370-1-ND,0.02383,Samsung,CIS21P300NE,,
@@ -44,7 +44,7 @@ C22,10uF,Capacitors_SMD:C_1206,http://www.murata.com/~/media/webrenewal/support/
 C20,10uF ,Capacitors_SMD:C_1206,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10756-2-ND,0.07429,Murata,GRM31CR61H106MA12L,,
 C18,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,,
 D4,BAT54 2x common cathode,TO_SOT_Packages_SMD:SOT-23,http://www.diodes.com/_files/datasheets/ds11005.pdf,Digikey,BAT54C-FDICT-ND,.03955,Diodes Inc,BAT54C-7-F,,
-C21,1nF,Capacitors_ThroughHole:C_Rect_L13_W4_P10,http://en.tdk.eu/inf/20/20/db/fc_2009/Y2_B32021_026.pdf,Digikey,495-4962-1-ND,0.30944,EPCOS (TDK),B32021A3102M189,(EMI Suppression),"Y" Rated
+C21,1nF,Capacitors_SMD:C_1812,http://psearch.murata.com/capacitor/product/GA342DR7GF102KW02%23.pdf,Digikey,490-7989-1-ND,0.24075,Murata,GA342DR7GF102KW02L,Y2 Safety Rated,
 F1,200mA PTC,Resistors_SMD:R_1206,http://www.belfuse.com/pdfs/0ZCJ.pdf,Digikey,507-1797-1-ND,0.06269,Bel Fuse,0ZCJ0020FF2E,,
 CON2,XLR-3 Female,Connect:XLR3MC,http://www.neutrik.us/en-us/xlr/aa-series/nc3faah2-0,Mouser,568-NC3FAAH-2-O,0.653,Neutrik,NC3FAAH2-0,,
 U5,ST485E,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,http://www.st.com/web/en/resource/technical/document/datasheet/CD00002703.pdf,Digikey,497-3735-1-ND,0.40145,STMicroelectronics,ST485ECDR,,
@@ -148,20 +148,20 @@ C70,10uF ,Capacitors_SMD:C_1206,http://www.murata.com/~/media/webrenewal/support
 C71,10uF ,Capacitors_SMD:C_1206,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10756-2-ND,0.07429,Murata,GRM31CR61H106MA12L,,
 D8,8.5VWM,TO_SOT_Packages_SMD:SOT-23,http://www.onsemi.com/pub_link/Collateral/MMBZ5V6ALT1-D.PDF,Digikey,MMBZ12VALT1GOSCT-ND,.04471,ON Semi,MMBZ12VALT1G,,
 C73,1uF ,Capacitors_SMD:C_0805,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10743-2-ND,0.03980,Murata,GRM219R61H105KA73D,,
-CON4,5-24V 5A,Connect:BARREL_JACK,http://katalog.we-online.de/em/datasheet/6941xx105102.pdf,Digikey,732-5932-1-ND,1.13,Wurth,694108105102,,
+CON4,2.5mm 5-24V 5A,Connect:BARREL_JACK,http://katalog.we-online.de/em/datasheet/6941xx105102.pdf,Digikey,732-5932-1-ND,1.13,Wurth,694108105102,,
 Q3,AOD4189,TO_SOT_Packages_SMD:TO-252-2Lead,http://aosmd.com/res/data_sheets/AOD4189.pdf,Digikey,785-1351-1-ND,0.196,Alpha & Omega,AOD4189,,
 C72,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,,
-CON5,5-24V 16A,Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol,http://www.diytrade.com/china/pd/11802786/terminal_block_2EDG_5_08_2P_3P_4P_5P_6P_7P_8P_9P_10P_11P_12P_13P_14P.html,eBay,http://www.ebay.com/itm/331290774584,0.23,E-xun,2EDG-3.81,4way 4pin Screw PCB Terminal Block Connector 3.81mm Pitch Pluggable Type,
+CON5,5-24V 16A,Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_4pol,http://www.diytrade.com/china/pd/11802786/terminal_block_2EDG_5_08_2P_3P_4P_5P_6P_7P_8P_9P_10P_11P_12P_13P_14P.html,eBay,http://www.ebay.com/itm/331290774584,0.23,E-xun,2EDG-3.81,,4way 4pin Screw PCB Terminal Block Connector 3.81mm Pitch Pluggable Type
 D9,8.5VWM,TO_SOT_Packages_SMD:SOT-23,http://www.onsemi.com/pub_link/Collateral/MMBZ5V6ALT1-D.PDF,Digikey,MMBZ12VALT1GOSCT-ND,.04471,ON Semi,MMBZ12VALT1G,,
 R35,100k,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT100KCT-ND,0.00320,Stackpole,RMCF0805JT100K,,
 FB7,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf,Digikey,1276-6370-1-ND,0.02383,Samsung,CIS21P300NE,,
 FB8,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf,Digikey,1276-6370-1-ND,0.02383,Samsung,CIS21P300NE,,
 C77,1uF ,Capacitors_SMD:C_0805,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10743-2-ND,0.03980,Murata,GRM219R61H105KA73D,,
 C76,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,,
-U13,TCR2EF12,TO_SOT_Packages_SMD:SOT-23-5,http://www.semicon.toshiba.co.jp/info/docget.jsp?pid=TCR2EE10&lang=en&type=datasheet,Digikey,TCR2EF12LM(CTCT-ND,0.07110,Toshiba,TCR2EF12.LM(CT,LDO 1.2V 200mA,
+U13,TCR2EF12,TO_SOT_Packages_SMD:SOT-23-5,http://www.semicon.toshiba.co.jp/info/docget.jsp?pid=TCR2EE10&lang=en&type=datasheet,Digikey,TCR2EF12LM(CTCT-ND,0.07110,Toshiba,TCR2EF12.LM(CT,,LDO 1.2V 200mA
 C75,1uF ,Capacitors_SMD:C_0805,http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx,Digikey,490-10743-2-ND,0.03980,Murata,GRM219R61H105KA73D,,
 C74,0.1uF,Capacitors_SMD:C_0805,http://psearch.murata.com/capacitor/product/GRM21BR71H104MA01%23.pdf,Digikey,490-9672-2-ND,0.01880,Murata,GRM21BR71H104MA01L,,
-U12,TCR2EF25,TO_SOT_Packages_SMD:SOT-23-5,http://www.semicon.toshiba.co.jp/info/docget.jsp?pid=TCR2EE10&lang=en&type=datasheet,Digikey,TCR2EF25LM(CTCT-ND,0.07110,Toshiba,TCR2EF25.LM(CT,LDO 2.5V 200mA,
+U12,TCR2EF25,TO_SOT_Packages_SMD:SOT-23-5,http://www.semicon.toshiba.co.jp/info/docget.jsp?pid=TCR2EE10&lang=en&type=datasheet,Digikey,TCR2EF25LM(CTCT-ND,0.07110,Toshiba,TCR2EF25.LM(CT,,LDO 2.5V 200mA
 U14,Si5351B,Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm,http://www.silabs.com/Support%20Documents/TechnicalDocs/Si5351-B.pdf,Digikey,336-2401-5-ND,2.01798,Silicon Labs,SI5351B-B-GM,,
 R37,2.2k,Resistors_SMD:R_0805,http://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT2K20CT-ND,0.0032,Stackpole,RMCF0805JT2K20CT,,
 X2,25.0000 MHz 15ppm 8pF,Crystals:crystal_FA238-TSX3225,http://www.ndk.com/images/products/catalog/c_NX3225SA-STD-CSR-3_e.pdf,Digikey,644-1267-1-ND,0.4187,NDK,NX3225SA-25.000M-STD-CSR-3,,
