@@ -188,9 +188,15 @@ F 3 "" H 1900 1750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1350 1550 1900 1550
+	1350 1550 1500 1550
 Wire Wire Line
-	950  1150 950  1850
+	1500 1550 1900 1550
+Wire Wire Line
+	950  1150 950  1300
+Wire Wire Line
+	950  1300 950  1550
+Wire Wire Line
+	950  1550 950  1850
 $Comp
 L +1V2 #PWR0106
 U 1 1 5640879A
@@ -236,7 +242,9 @@ F 3 "" H 3900 850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 1700 4250 1700
+	3700 1700 3900 1700
+Wire Wire Line
+	3900 1700 4250 1700
 Wire Wire Line
 	3900 1350 3900 1700
 Connection ~ 3900 1700
@@ -261,14 +269,18 @@ F 8 "RMCF0805JT10K0" V 3900 2250 60  0001 C CNN "Mfg1Id"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3700 1800 4250 1800
+	3700 1800 3900 1800
+Wire Wire Line
+	3900 1800 4250 1800
 Wire Wire Line
 	3900 1800 3900 2100
 Connection ~ 3900 1800
 Text Notes 4050 2450 0    60   ~ 0
 Pulldown selects "slave" serial\nconfiguration mode at powerup
 Wire Wire Line
-	3900 850  3900 1050
+	3900 850  3900 950 
+Wire Wire Line
+	3900 950  3900 1050
 Wire Wire Line
 	3900 950  4100 950 
 Wire Wire Line
@@ -343,9 +355,27 @@ F 3 "" H 1150 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1150 6600 1150 6800
+	1150 6600 1150 6700
 Wire Wire Line
-	1150 6700 4300 6700
+	1150 6700 1150 6800
+Wire Wire Line
+	1150 6700 1500 6700
+Wire Wire Line
+	1500 6700 1850 6700
+Wire Wire Line
+	1850 6700 2200 6700
+Wire Wire Line
+	2200 6700 2550 6700
+Wire Wire Line
+	2550 6700 2900 6700
+Wire Wire Line
+	2900 6700 3250 6700
+Wire Wire Line
+	3250 6700 3600 6700
+Wire Wire Line
+	3600 6700 3950 6700
+Wire Wire Line
+	3950 6700 4300 6700
 Wire Wire Line
 	1500 6700 1500 6800
 Connection ~ 1150 6700
@@ -374,9 +404,17 @@ Wire Wire Line
 	4300 6700 4300 6800
 Connection ~ 3950 6700
 Wire Wire Line
-	1150 5350 1150 5550
+	1150 5350 1150 5450
 Wire Wire Line
-	1150 5450 2550 5450
+	1150 5450 1150 5550
+Wire Wire Line
+	1150 5450 1500 5450
+Wire Wire Line
+	1500 5450 1850 5450
+Wire Wire Line
+	1850 5450 2200 5450
+Wire Wire Line
+	2200 5450 2550 5450
 Wire Wire Line
 	1500 5450 1500 5550
 Connection ~ 1150 5450
@@ -390,9 +428,17 @@ Wire Wire Line
 	2550 5450 2550 5550
 Connection ~ 2200 5450
 Wire Wire Line
-	1150 5850 1150 6050
+	1150 5850 1150 5950
 Wire Wire Line
-	1150 5950 2550 5950
+	1150 5950 1150 6050
+Wire Wire Line
+	1150 5950 1500 5950
+Wire Wire Line
+	1500 5950 1850 5950
+Wire Wire Line
+	1850 5950 2200 5950
+Wire Wire Line
+	2200 5950 2550 5950
 Wire Wire Line
 	1500 5950 1500 5850
 Wire Wire Line
@@ -405,9 +451,27 @@ Wire Wire Line
 	2550 5950 2550 5850
 Connection ~ 2200 5950
 Wire Wire Line
-	1150 7100 1150 7300
+	1150 7100 1150 7200
 Wire Wire Line
-	1150 7200 4300 7200
+	1150 7200 1150 7300
+Wire Wire Line
+	1150 7200 1500 7200
+Wire Wire Line
+	1500 7200 1850 7200
+Wire Wire Line
+	1850 7200 2200 7200
+Wire Wire Line
+	2200 7200 2550 7200
+Wire Wire Line
+	2550 7200 2900 7200
+Wire Wire Line
+	2900 7200 3250 7200
+Wire Wire Line
+	3250 7200 3600 7200
+Wire Wire Line
+	3600 7200 3950 7200
+Wire Wire Line
+	3950 7200 4300 7200
 Wire Wire Line
 	1500 7200 1500 7100
 Wire Wire Line
@@ -491,9 +555,15 @@ F 8 "RMCF0805JT10K0" V 6050 4000 60  0001 C CNN "Mfg1Id"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5650 4250 6550 4250
+	5650 4250 5850 4250
 Wire Wire Line
-	5650 4350 6550 4350
+	5850 4250 6050 4250
+Wire Wire Line
+	6050 4250 6550 4250
+Wire Wire Line
+	5650 4350 6250 4350
+Wire Wire Line
+	6250 4350 6550 4350
 Wire Wire Line
 	6050 4150 6050 4250
 Connection ~ 6050 4250
@@ -512,7 +582,9 @@ F 3 "" H 6050 3750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6050 3750 6050 3850
+	6050 3750 6050 3800
+Wire Wire Line
+	6050 3800 6050 3850
 Wire Wire Line
 	6050 3800 6250 3800
 Wire Wire Line
@@ -886,21 +958,21 @@ Text HLabel 9150 6300 0    60   Output ~ 0
 VBUS_DOWNSTREAM_EN
 Text HLabel 12400 2050 0    60   Input ~ 0
 SYNC_RXD
-Text HLabel 12400 2550 0    60   Output ~ 0
+Text HLabel 6550 2700 0    60   Output ~ 0
 SYNC_TXD
 Text HLabel 9150 5300 0    60   Output ~ 0
 CLK_SCL
 Text HLabel 9150 5400 0    60   BiDi ~ 0
 CLK_SDA
-Text HLabel 12700 5150 0    60   Output ~ 0
+Text HLabel 9150 4700 0    60   Output ~ 0
 VCXO_PWM
 Text HLabel 4950 5150 0    60   Input ~ 0
 CLK[7..0]
 Wire Bus Line
 	4950 4950 5050 4950
-Text Label 12500 7200 0    60   ~ 0
+Text Label 5350 2900 0    60   ~ 0
 FIFO_DATA0
-Text Label 12500 7300 0    60   ~ 0
+Text Label 5350 2800 0    60   ~ 0
 FIFO_DATA1
 Text Label 5250 4850 0    60   ~ 0
 FIFO_DATA2
@@ -915,9 +987,9 @@ FIFO_DATA6
 Text Label 5250 6050 0    60   ~ 0
 FIFO_DATA7
 Wire Wire Line
-	12450 7200 13150 7200
+	5350 2900 6650 2900
 Wire Wire Line
-	12450 7300 13150 7300
+	5350 2800 6650 2800
 Wire Wire Line
 	5250 4850 6550 4850
 Wire Wire Line
@@ -947,41 +1019,41 @@ Wire Wire Line
 Wire Bus Line
 	4950 5150 5050 5150
 Wire Wire Line
-	11900 5650 12700 5650
+	8300 5100 9250 5100
 Wire Wire Line
-	11900 5750 12700 5750
+	8300 5200 9250 5200
 Wire Wire Line
-	11900 5850 12700 5850
+	8300 5600 9250 5600
 Wire Wire Line
-	11900 5950 12700 5950
+	8300 5700 9250 5700
 Wire Wire Line
-	11900 4950 12700 4950
+	8300 4800 9250 4800
 Wire Wire Line
-	11900 5050 12700 5050
+	8300 4900 9250 4900
 Wire Wire Line
-	11900 5250 12700 5250
-Text Label 11900 5650 0    60   ~ 0
+	8300 5500 9250 5500
+Text Label 8300 5100 0    60   ~ 0
 CLK0
-Text Label 11900 5750 0    60   ~ 0
+Text Label 8300 5200 0    60   ~ 0
 CLK1
-Text Label 11900 5850 0    60   ~ 0
+Text Label 8300 5600 0    60   ~ 0
 CLK2
-Text Label 11900 5950 0    60   ~ 0
+Text Label 8300 5700 0    60   ~ 0
 CLK3
-Text Label 11900 4950 0    60   ~ 0
+Text Label 8300 4800 0    60   ~ 0
 CLK4
-Text Label 11900 5050 0    60   ~ 0
+Text Label 8300 4900 0    60   ~ 0
 CLK5
-Text Label 11900 5350 0    60   ~ 0
+Text Label 8300 5000 0    60   ~ 0
 CLK6
-Text Label 11900 5250 0    60   ~ 0
+Text Label 8300 5500 0    60   ~ 0
 CLK7
 Wire Wire Line
 	9150 6300 9250 6300
 Wire Wire Line
 	12400 2050 12500 2050
 Wire Wire Line
-	12400 2550 12500 2550
+	6550 2700 6650 2700
 Wire Wire Line
 	12400 2150 12500 2150
 Wire Wire Line
@@ -1042,55 +1114,55 @@ Text GLabel 12400 3150 0    60   BiDi ~ 0
 MOD3_PIN6
 Text GLabel 12400 3350 0    60   BiDi ~ 0
 MOD3_PIN8
-Text GLabel 13700 1750 0    60   BiDi ~ 0
+Text GLabel 6550 2500 0    60   BiDi ~ 0
 MOD4_PIN1
-Text GLabel 13700 1650 0    60   BiDi ~ 0
+Text GLabel 6550 2600 0    60   BiDi ~ 0
 MOD4_PIN2
-Text GLabel 13700 1550 0    60   BiDi ~ 0
+Text GLabel 6550 2400 0    60   BiDi ~ 0
 MOD4_PIN3
-Text GLabel 13700 1350 0    60   BiDi ~ 0
+Text GLabel 6550 2200 0    60   BiDi ~ 0
 MOD4_PIN5
-Text GLabel 13700 1150 0    60   BiDi ~ 0
+Text GLabel 6550 2000 0    60   BiDi ~ 0
 MOD4_PIN7
-Text GLabel 13700 1450 0    60   BiDi ~ 0
+Text GLabel 6550 2300 0    60   BiDi ~ 0
 MOD4_PIN4
-Text GLabel 13700 1250 0    60   BiDi ~ 0
+Text GLabel 6550 2100 0    60   BiDi ~ 0
 MOD4_PIN6
-Text GLabel 12400 3450 0    60   BiDi ~ 0
+Text GLabel 6550 1900 0    60   BiDi ~ 0
 MOD4_PIN8
-Text GLabel 13700 2550 0    60   BiDi ~ 0
+Text GLabel 9150 4500 0    60   BiDi ~ 0
 MOD5_PIN1
-Text GLabel 13700 2450 0    60   BiDi ~ 0
+Text GLabel 9150 4600 0    60   BiDi ~ 0
 MOD5_PIN2
-Text GLabel 13700 2350 0    60   BiDi ~ 0
+Text GLabel 9150 4300 0    60   BiDi ~ 0
 MOD5_PIN3
-Text GLabel 13700 2150 0    60   BiDi ~ 0
+Text GLabel 6550 3100 0    60   BiDi ~ 0
 MOD5_PIN5
-Text GLabel 13700 1950 0    60   BiDi ~ 0
+Text GLabel 9150 4000 0    60   BiDi ~ 0
 MOD5_PIN7
-Text GLabel 13700 2250 0    60   BiDi ~ 0
+Text GLabel 9150 4400 0    60   BiDi ~ 0
 MOD5_PIN4
-Text GLabel 13700 2050 0    60   BiDi ~ 0
+Text GLabel 9150 4200 0    60   BiDi ~ 0
 MOD5_PIN6
-Text GLabel 13700 1850 0    60   BiDi ~ 0
+Text GLabel 9150 4100 0    60   BiDi ~ 0
 MOD5_PIN8
-Text GLabel 12600 4850 0    60   BiDi ~ 0
+Text GLabel 6450 4450 0    60   BiDi ~ 0
 MOD6_PIN1
-Text GLabel 12600 4750 0    60   BiDi ~ 0
+Text GLabel 6450 4550 0    60   BiDi ~ 0
 MOD6_PIN2
-Text GLabel 12600 4650 0    60   BiDi ~ 0
+Text GLabel 6450 4650 0    60   BiDi ~ 0
 MOD6_PIN3
-Text GLabel 12600 4450 0    60   BiDi ~ 0
+Text GLabel 9150 6100 0    60   BiDi ~ 0
 MOD6_PIN5
-Text GLabel 12600 4250 0    60   BiDi ~ 0
+Text GLabel 9150 5900 0    60   BiDi ~ 0
 MOD6_PIN7
-Text GLabel 12600 4550 0    60   BiDi ~ 0
+Text GLabel 9150 6200 0    60   BiDi ~ 0
 MOD6_PIN4
-Text GLabel 12600 4350 0    60   BiDi ~ 0
+Text GLabel 9150 6000 0    60   BiDi ~ 0
 MOD6_PIN6
-Text GLabel 12600 4150 0    60   BiDi ~ 0
+Text GLabel 9150 5800 0    60   BiDi ~ 0
 MOD6_PIN8
-Text GLabel 13700 2650 0    60   BiDi ~ 0
+Text GLabel 6550 3000 0    60   BiDi ~ 0
 MOD7_PIN1
 Text GLabel 6450 4750 0    60   BiDi ~ 0
 MOD7_PIN2
@@ -1155,37 +1227,37 @@ Wire Wire Line
 Wire Wire Line
 	12400 3350 12500 3350
 Wire Wire Line
-	12600 4150 12700 4150
+	9150 5800 9250 5800
 Wire Wire Line
-	12600 4350 12700 4350
+	9150 6000 9250 6000
 Wire Wire Line
-	12600 4550 12700 4550
+	9150 6200 9250 6200
 Wire Wire Line
-	12600 4750 12700 4750
+	6450 4550 6550 4550
 Wire Wire Line
-	12600 4250 12700 4250
+	9150 5900 9250 5900
 Wire Wire Line
-	12600 4450 12700 4450
+	9150 6100 9250 6100
 Wire Wire Line
-	12600 4650 12700 4650
+	6450 4650 6550 4650
 Wire Wire Line
-	12600 4850 12700 4850
+	6450 4450 6550 4450
 Wire Wire Line
-	12400 3450 12500 3450
+	6550 1900 6650 1900
 Wire Wire Line
-	13700 1250 13800 1250
+	6550 2100 6650 2100
 Wire Wire Line
-	13700 1450 13800 1450
+	6550 2300 6650 2300
 Wire Wire Line
-	13700 1650 13800 1650
+	6550 2600 6650 2600
 Wire Wire Line
-	13700 1150 13800 1150
+	6550 2000 6650 2000
 Wire Wire Line
-	13700 1350 13800 1350
+	6550 2200 6650 2200
 Wire Wire Line
-	13700 1550 13800 1550
+	6550 2400 6650 2400
 Wire Wire Line
-	13700 1750 13800 1750
+	6550 2500 6650 2500
 Wire Wire Line
 	6450 4750 6550 4750
 Wire Wire Line
@@ -1201,23 +1273,23 @@ Wire Wire Line
 Wire Wire Line
 	6450 5350 6550 5350
 Wire Wire Line
-	13700 2650 13800 2650
+	6550 3000 6650 3000
 Wire Wire Line
-	13700 1850 13800 1850
+	9150 4100 9250 4100
 Wire Wire Line
-	13700 2050 13800 2050
+	9150 4200 9250 4200
 Wire Wire Line
-	13700 2250 13800 2250
+	9150 4400 9250 4400
 Wire Wire Line
-	13700 2450 13800 2450
+	9150 4600 9250 4600
 Wire Wire Line
-	13700 1950 13800 1950
+	9150 4000 9250 4000
 Wire Wire Line
-	13700 2150 13800 2150
+	6550 3100 6650 3100
 Wire Wire Line
-	13700 2350 13800 2350
+	9150 4300 9250 4300
 Wire Wire Line
-	13700 2550 13800 2550
+	9150 4500 9250 4500
 $Comp
 L LED_BGR D5
 U 1 1 565EAE50
@@ -1311,7 +1383,9 @@ Wire Wire Line
 Wire Wire Line
 	4450 3250 4450 3350
 Wire Wire Line
-	4350 3350 4550 3350
+	4350 3350 4450 3350
+Wire Wire Line
+	4450 3350 4550 3350
 Connection ~ 4450 3350
 Wire Wire Line
 	4750 3250 4750 3450
@@ -1323,7 +1397,9 @@ Connection ~ 5850 4250
 Text Notes 2550 3750 0    60   ~ 0
 RGB indicator LED\n3/3/5mA active low drive (white)\nDim blue glow when unconfigured
 Wire Wire Line
-	4150 4000 4950 4000
+	4150 4000 4350 4000
+Wire Wire Line
+	4350 4000 4950 4000
 Wire Wire Line
 	4350 3850 4350 4000
 Connection ~ 4350 4000
@@ -1360,7 +1436,7 @@ Wire Wire Line
 Wire Wire Line
 	12500 6900 13150 6900
 Wire Wire Line
-	12700 5350 11900 5350
+	9250 5000 8300 5000
 $Comp
 L iCE40-HX1K-TQ144 U6
 U 1 1 5637E334
@@ -4526,7 +4602,7 @@ A2 A4 69 3A 2D 7E 4C FF AB 78 3E 2F 42 71 22 4D 57 00 BC C2 CC AF C4 33 FA FF 32
 9E 48 66 C8 87 00 7E 03 E0 5D 22 7A 3B 49 92 37 51 3F A7 8F A3 6E 10 BF 6E 77 82 4D 4C BA 2B DE 
 FB 59 00 E6 A5 69 3A 37 9E CF 73 BC F7 37 E3 33 5D 9E A8 3E 7F 80 FA F7 F6 BB 44 F4 6E D4 E7 77 
 A2 1E 1F 27 A2 E3 16 70 32 E9 54 FE 3F E7 AF 00 CA 1C A3 36 0A 00 00 00 00 49 45 4E 44 AE 42 60 
-82 00 
+82 70 
 EndData
 $EndBitmap
 Text Notes 6700 7750 0    79   ~ 0
@@ -5784,9 +5860,11 @@ C5 FD 07 4E 03 BE 1E B1 EE 35 49 A5 EF C3 5D 51 4D 3D BD 8F 90 EB 8C 99 6D 4B 10
 69 2D AF DF 24 5C EB AD F7 BF 67 81 C7 08 D3 89 6F EC 21 B0 B1 27 F0 1B 09 3F 42 8E EB 64 1E 90 
 72 0F 1C A9 DC 70 49 CB 79 33 88 85 99 AD 01 6C 4B 10 FC 3B 13 DE 3B 37 68 79 AD 07 BC 00 3C 0E 
 3C 31 EE E3 D8 E7 0F 03 D7 7B 9F FB C1 E1 FF 01 18 C4 96 1D B8 0E 40 07 00 00 00 00 49 45 4E 44 
-AE 42 60 82 C4 
+AE 42 60 82 00 
 EndData
 $EndBitmap
 Text Notes 9900 7900 0    102  ~ 0
 A
+Wire Wire Line
+	9150 4700 9250 4700
 $EndSCHEMATC
