@@ -10,13 +10,13 @@ program: $(PROJECT).bin
 $(PROJECT).blif: $(SRC) $(PINS) Makefile
 	yosys -q -p "synth_ice40 -top top -blif $(PROJECT).blif" $(SRC)
 
-$(PROJECT).ice.txt: $(PROJECT).blif
+$(PROJECT).asc: $(PROJECT).blif
 	arachne-pnr -p $(PINS) $< -o $@
 
-$(PROJECT).bin: $(PROJECT).ice.txt
+$(PROJECT).bin: $(PROJECT).asc
 	icepack $< $@
 
 clean:
-	rm -f $(PROJECT).blif $(PROJECT).ice.txt $(PROJECT).bin
+	rm -f $(PROJECT).blif $(PROJECT).asc $(PROJECT).bin
 
 .PHONY: clean
