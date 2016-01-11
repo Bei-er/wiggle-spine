@@ -7,7 +7,7 @@ R5,10k,Resistors_SMD:R_0805,http://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Di
 U2,FT2232H,Housings_QFP:LQFP-64_10x10mm_Pitch0.5mm,http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT2232H.pdf,Digikey,768-1024-1-ND,3.70,FTDI,FT2232HL-REEL,,
 R10,12k 1%,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805FT12K0TR-ND,0.0032,Stackpole,RMCF0805FT12K0,,
 R7,4.7k,Resistors_SMD:R_0805,https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT4K70CT-ND,0.0032,Stackpole,RMCF0805JT4K70,,
-D1,TVS DIODE 5.5VWM,TO_SOT_Packages_SMD:SC-70-6,http://www.nxp.com/documents/data_sheet/PRTR5V0U4Y.pdf,Digikey,568-6542-1-ND,0.13228,NXP,PRTR5V0U4Y,,
+D1,TVS DIODE 5.5VWM,TO_SOT_Packages_SMD:SC-70-6,http://www.nxp.com/documents/data_sheet/PRTR5V0U4Y.pdf,Digikey,DRTR5V0U4S-7DICT-ND,0.12266,Diodes Inc,DRTR5V0U4S-7,,
 FB3,Ferrite bead,Resistors_SMD:R_0805,http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/bead/__icsFiles/afieldfile/2014/11/13&fileName=S_CIS21J121NE.pdf,Digikey,1276-6370-1-ND,0.02383,Samsung,CIS21P300NE,,
 U1,93C56,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,http://www.onsemi.com/pub_link/Collateral/CAT93C56-D.PDF,Digikey,CAT93C56VI-GT3OSCT-ND,0.14893,ON Semi,CAT93C56VI-GT3,,
 R1,10k,Resistors_SMD:R_0805,http://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf,Digikey,RMCF0805JT10K0CT-ND,0.0032,Stackpole,RMCF0805JT10K0,,
