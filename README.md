@@ -46,9 +46,9 @@ Wiggleport is an open source hardware design optimized for simple and straightfo
 
 Wiggleport isn't really a sound card, even though you can use it as one. It has its own APIs for C++, MIDI, and Javascript. You can write code for precisely timed multichannel sound installations on your laptop on Mac OS, for example, and run the same code on a Raspberry Pi later on.
 
-Going even deeper, Wiggleport is really kind of a construction kit for hardware and drivers that stream signals in real-time. This reconfigurability is what lets Wiggleport automatically configure the various add-on modules, but you can also use this core directly to create your own hardware, with or without an FPGA at its core.
+Going even deeper, Wiggleport is really kind of a construction kit for hardware and drivers that stream signals in real-time. This reconfigurability is what lets Wiggleport automatically configure the various add-on modules, but you can also use this core directly to create your own hardware, with or without including an FPGA.
 
-Coming soon... development is happening here now!
+**Coming soon**... development is happening here now!
 
 
 Repositories
