@@ -1,4 +1,4 @@
-<img alt="wiggleport" src="https://raw.githubusercontent.com/scanlime/wiggleport/master/doc/wiggleport-wordmark.png" width="66%">
+<img alt="wiggleport" src="https://raw.githubusercontent.com/wiggleport/graphic-design/master/wiggleport-wordmark.png" width="300em">
 
 Modular I/O for multi-channel sound, light, and motion
 ------------------------------------------------------
@@ -49,13 +49,3 @@ Wiggleport isn't really a sound card, even though you can use it as one. It has 
 Going even deeper, Wiggleport is really kind of a construction kit for hardware and drivers that stream signals in real-time. This reconfigurability is what lets Wiggleport automatically configure the various add-on modules, but you can also use this core directly to create your own hardware, with or without including an FPGA.
 
 **Coming soon**... development is happening here now!
-
-
-Repositories
-------------
-
-This repo is for official hardware and for project documentation.
-
-See also:
-
-* https://github.com/scanlime/libwiggleport -- The C/C++ library for streaming signals to and from Wiggleport
