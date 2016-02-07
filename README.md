@@ -1,28 +1,22 @@
 <img alt="wiggleport" src="https://raw.githubusercontent.com/wiggleport/graphic-design/master/wiggleport-wordmark.png" width="300em">
 
-Modular I/O for multi-channel sound, light, and motion
-------------------------------------------------------
+This is the Wiggle **Spine**, a power and data hub with room for 7 modules.
 
-[Join the chat at #wiggleport on Freenode](http://webchat.freenode.net/?channels=#wiggleport)
+Wiggle Spine
+------------
 
-* Use it to create objects and environments that are perfectly synchronized with immersive sound and vibration
-* Drive up to 14 speakers at 48/96 kHz per channel from one USB port
-* Connect sensors and lights, sync them perfectly with sound and each other
-* Connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers
-* Use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2
-* Accurate control of I/O timing from high-level Javascript code
+* Each "spine" board has a 480 Mbit/s USB 2.0 uplink and 7 connectors for **modules**.
+* Drive up to 14 speakers at 48/96 kHz per channel from one USB port.
+* Connect sensors and lights, sync them perfectly with sound and each other.
+* Use it to create objects and environments that are perfectly synchronized with immersive sound and vibration.
+* Connect other audio-frequency devices like vibration transducers, LED strobes, and modular synthesizers.
+* Use all the processing power in your PC, or run from an embedded Linux board like the Raspberry Pi 2.
+* Gain accurate control of I/O timing from high-level languages like Javascript.
 
-![Prototype for Wiggle Spine](http://i.imgur.com/jwQOVLf.jpg)
+<img alt="Wiggle Spine prototype photo" src="https://raw.githubusercontent.com/wiggleport/wiggle-spine/master/doc/photos/revA-top.jpg" width="100%" >
 
 Scale it up or down
 -------------------
-
-* Each "spine" board has a 480 Mbit/s USB 2.0 uplink and 7 connectors for **modules**:
-  * *wiggle out* – 2x 25-watt class D speaker amplifiers
-  * *wiggle volts* - 2x analog input and 2x analog output, DC-coupled with configurable gain
-  * *wiggle dig* - Digital input and output, compatible with Arduino shields
-  * *wiggle bright* - Drive addressable LED strips or panels (SPI/WS2811)
-  * *wiggle cat* - Extend module signals and power (for *dig* and *bright*) long distances over Cat-5 cable
 
 * Multiple spines can be synchronized with cheap TOSLINK-style optical cables
   * USB links can go to the same or different computers, depending on how much processing power you need
@@ -48,4 +42,4 @@ Wiggleport isn't really a sound card, even though you can use it as one. It has 
 
 Going even deeper, Wiggleport is really kind of a construction kit for hardware and drivers that stream signals in real-time. This reconfigurability is what lets Wiggleport automatically configure the various add-on modules, but you can also use this core directly to create your own hardware, with or without including an FPGA.
 
-**Coming soon**... development is happening here now!
+**Coming soon**... development is happening here now! You can follow the progress at [wiggleport.org](http://wiggleport.org).
