@@ -1,6 +1,6 @@
 <img alt="wiggleport" src="https://raw.githubusercontent.com/wiggleport/graphic-design/master/wiggleport-wordmark.png" width="300em">
 
-This is the Wiggle **Spine**, a power and data hub with room for 7 modules.
+This is the Wiggle **Spine**, an open hardware design for Wiggleport's power and data hub.
 
 Wiggle Spine
 ------------
