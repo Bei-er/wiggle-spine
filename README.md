@@ -2,9 +2,6 @@
 
 This is the Wiggle **Spine**, an open hardware design for [Wiggleport](http://wiggleport.org)'s power and data hub.
 
-Wiggle Spine
-------------
-
 * Each "spine" board has a 480 Mbit/s USB 2.0 uplink and 7 connectors for **modules**.
 * Drive up to 14 speakers at 48/96 kHz per channel from one USB port.
 * Connect sensors and lights, sync them perfectly with sound and each other.
